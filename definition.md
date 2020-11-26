@@ -9,7 +9,7 @@ Le **système d'exploitation** (ou Operating System / OS / logiciel système) re
 
 Le système d'exploitation est le **premier programme exécuté** par la machine au démarrage car il précise les tâches à effectuer. Dès que la machine a bien exécuté les commandes initiales du logiciel système, ce dernier laissera la main à l'utilisateur pour **exécuter d'autres commandes**. L'utilisateur utilisera les application ou l'interface graphique ou de programmation pour demander l'exécution d'une tâche par l'OS.
 
-Les composants d'un OS
+### Les composants d'un OS
 * Le **KERNEL**
     * Noyau de l'OS
     * Gère les fonctions clés de l'OS
@@ -30,10 +30,8 @@ Les composants d'un OS
     * Correspondent aux pilotes
     * Permettent la gestion des périphériques
 
-*Sources :*
-* [L'OS expliqué en 3 minutes / Cokie connecté](https://www.youtube.com/watch?v=AcZ87MTiXr4)
-* [Qu'est-ce qu'un système d'exploitation / Astuces et aide informatique](https://www.astuces-aide-informatique.info/878/definition-systeme-exploitation)
-* [Système d'exploitation : Qu'est-ce que c'est ? / Futura Tech](https://www.futura-sciences.com/tech/definitions/informatique-systeme-exploitation-11820/)
+*[Sources](./sources)*
+
 
 
 > Pour résumer : Le **système d'exploitation** est un programme système. Le **kernel** est UNE PARTIE importante du système d'exploitation. Le système d'exploitation est une interface entre l'utilisateur et le matériel de l'ordinateur. Le kernel est une interface entre le logiciel et le matériel de l'ordinateur. 
