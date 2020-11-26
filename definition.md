@@ -1,4 +1,4 @@
-# Les définitions à connaître pour bien comprendre le Shel
+# Les définitions à connaître pour bien comprendre le Shell
 
 ## HardWare et BIOS
 
@@ -49,3 +49,6 @@ Linux est constitué de 2 environnements :
 * **L'environnement console** : On navigue à travers l'arborescence de l'ordinateur grâce à des lignes de commandes spécifiques. 
 
 Le Shell est donc un environnement console de Linux. 
+
+
+**[Retour au sommaire](./README.md)
