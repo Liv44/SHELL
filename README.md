@@ -12,6 +12,10 @@ Ce répertoire se décompose ainsi : dans le fichier README.md, vous retrouverez
 1. [Les définitions](./definition.md)
 2. [Les différents types de Shell](./types.md)
 3. [Les scripts Shell](./script.md)
+    * [Les variables](./var.md)
+    * [Les conditions](./conditions.md)
+    * [Les boucles](./boucles.md)
+    * [Premier script : git.sh](./git.sh)
 4. [Third Example](./example.md)
 
 ## [Sources](./sources.md)
@@ -27,12 +31,6 @@ Voici un code en C :
 Ceci est une `Fonction`.
 
 Ceci est une ![image](oliviamoreau/Desktop/test.jpg)
-
-définir
-types de shell : comment on fait, ce que ça change
-variables : 
-conditions
-boucles
 
 faire des projets simples
 

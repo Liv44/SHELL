@@ -26,7 +26,7 @@ Le système d'exploitation est le **premier programme exécuté** par la machine
     * gère l'arborescence, l'écriture et la lecture des fichiers
     * Enregistrer les fichiers ans une arborescence
 
-* Les **Drivers**
+* Les **DRIVERS**
     * Correspondent aux pilotes
     * Permettent la gestion des périphériques
 
