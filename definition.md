@@ -5,7 +5,7 @@
 *Avant de définir le Shell, je souhaite comprendre la notion de système d'exploitation pour bien comprendre l'utilisation du Shell*
 
 
-Le **système d'exploitation** (ou Operating System / OS / logiciel système) représente l'**ensemble des programmes qui pilotent les différents composants de l'appareil informatique et reçoit des instructions de l'utilisateur ou d'autres logiciels**. L'OS assure le lien entre les **ressources matérielles** de la machine (HardWare) et les **applications** (SoftWare).
+Le **système d'exploitation** (ou Operating System / OS / logiciel système) est le **programme de base qui pilote les différents composants de l'appareil informatique et reçoit des instructions de l'utilisateur ou d'autres logiciels**. L'OS assure le lien entre les **ressources matérielles** de la machine (HardWare) et les **applications** (SoftWare).
 
 Le système d'exploitation est le **premier programme exécuté** par la machine au démarrage car il précise les tâches à effectuer. Dès que la machine a bien exécuté les commandes initiales du logiciel système, ce dernier laissera la main à l'utilisateur pour **exécuter d'autres commandes**. L'utilisateur utilisera les application ou l'interface graphique ou de programmation pour demander l'exécution d'une tâche par l'OS.
 
