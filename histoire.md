@@ -1,4 +1,4 @@
-# La définition de Shell
+# Les définitions à connaître pour bien comprendre le Shel
 
 ## Le système d'exploitation : OS
 
