@@ -1,20 +1,31 @@
-## SHELL
+# SHELL
 
 UNIX. Cours sur celui que l'on veut. MAc est une base UNIX donc on fait du shell sur MAC. 
 
-# test format MarkDown
-
-* hello
-* hello 2 
-    * wah
-    * vraiment ?
-
-    incroyable
+# Ceci est un titre de niveau 1
+## Ceci est un titre de niveau 2
+### Ceci est un titre de niveau 3
 
 
-youhou
+*Ceci est un texte en italique*
+**Ceci est un texte en gras**
+
+#### Liste à puce ####
+
+* Puce 1
+* Puce 2
+* Puce 3 
+    * Une sous-puce
+    * Une sous-puce
+
+1. Puce numéro 1
+2. Puce numéro 2
 
 > Ceci est une citation
+>> Ceci est une réponse à la citation
+>> 
+>> * test 
+
 
 Voici un code en C :
 
@@ -24,6 +35,11 @@ Voici un code en C :
         return 0;
     }
 
-La fonction `printf()` permet d'afficher du texte
+Ceci est une `Fonction`.
 
-Rendez-vous sur le [Site du Zéro](http://www.siteduzero.com) pour tout apprendre à partir de Zéro !
+Ceci est un [lien](http://www.google.fr)
+
+Ceci est une ![image](oliviamoreau/Desktop/test.jpg)
+
+Barre de séparation 
+---------
