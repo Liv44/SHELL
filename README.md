@@ -41,5 +41,5 @@ Ceci est un [lien](http://www.google.fr)
 
 Ceci est une ![image](oliviamoreau/Desktop/test.jpg)
 
-Barre de séparation 
+
 ---------
