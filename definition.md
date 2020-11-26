@@ -18,7 +18,7 @@ Le **BIOS** est un ensemble de fonctions, contenu dans la mémoire morte (ROM) d
 
 *Avant de définir le Shell, je souhaiterai développer la structure d'un système d'exploitation*
 
-Le **système d'exploitation** *Ou logicel système, Operating System : **OS***
+Le **système d'exploitation** *(ou logicel système, Operating System : **OS**)*
 
 * est un ensemble de programmes qui dirige l'utilisation des ressources d'un ordinateur par des logiciels applicatifs (Wikipedia). . 
 
