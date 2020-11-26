@@ -40,26 +40,19 @@ Le shell est un programme qui interprète les commandes saisies dans le termina
 
 Le shell est un programme qui interprète vos commande et les transmet au noyau unix (OS). Ils permettent en plus de définir un environnement. (http://aramis.obspm.fr/~semelin/enseignement/cours_unix.pdf)
 
-Un shell Unix est un interpréteur de commandes destiné aux systèmes d'exploitation Unix et de type Unix qui permet d'accéder aux fonctionnalités internes du système d'exploitation. Il se présente sous la forme d'une interface en ligne de commande accessible depuis la console ou un terminal.  (wiki)
 
 Le Shell est un programme qui interprète les commandes données par l'utilisateur et les exécute en les transmettant au système d'exploitation. Les commandes sont saisies dans la console ou un Terminal, qui sont tous deu des invites de commande. On travaille donc sur l'environnement console, contrairement à l'environnement graphique où l'on navigue dans la machine grâce à la souris et/ou au clavier avec des icônes visuelles assez intuitives. Ici, ce sont les commandes soumises par l'utilisateur via son clavier et interprétées par le Shell qui permettront d'exécuter une ou plusieurs actions sur notre machine. 
 
-Shell signifie littéralement *coquille* en français, et correspond à l'interface système de l'ordinateur. C'est un langage intégré à Linux, qui va interpréter des commandes. le Shell est un programme que l'on trouve dans le répertoire /bin (mettre photo) On retrouve les commandes Shell dans le répertoire /bin de notre machine. 
+
+le Shell est un programme que l'on trouve dans le répertoire /bin (mettre photo) On retrouve les commandes Shell dans le répertoire /bin de notre machine. 
 
 Le Shell permet donc de :
 * Exécuter des commandes
 * Explorer l'arborescence d'un système
 * Créer, éditer et supprimer des fichiers
-* ...
 
 La principale utilité du Shell se trouve dans la création de scripts Shell qui permettent d'automatiser des actions que nous pourrions réaliser une à une à la main. (*Voir [Les Scripts Shell](./scripts.md)*)
 
-
-Linux est constitué de 2 environnements : 
-* **L'environnement graphique** : Utilisé pour les *simples* utilisateurs. On peut naviguer à travers les dossiers avec sa souris ou son clavier, tout est très visuel. Il est plus intuitif.
-* **L'environnement console** : On navigue à travers l'arborescence de l'ordinateur grâce à des lignes de commandes spécifiques. 
-
-Le Shell est donc un environnement console de Linux. 
 
 *[Retour au sommaire](./README.md)* | 
 *[Sources](./sources.md)* | *[Chapitre suivant (Types de Shell)](./types.md)*
