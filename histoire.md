@@ -12,7 +12,7 @@ Un système d'exploitation représente l'ensemble des programmes qui pilote les 
 
 Le système d'exploitation est composé principalement d'un noyau et d'une coquille nommés chacun **KERNEL** et **SHELL**. Le kernel permet la communication directe avec les ressources matérielles.
 
-> Pour résumer : Le système d'exploitation est un programme système. Le kernel est UNE PARTIE importante du système d'exploitation. Le système d'exploitation est une interface entre l'utilisateur et le matériel de l'ordinateur. Le kernel est une interface entre le logiciel et le matériel de l'ordinateur. 
+> Pour résumer : Le **système d'exploitation** est un programme système. Le **kernel** est UNE PARTIE importante du système d'exploitation. Le système d'exploitation est une interface entre l'utilisateur et le matériel de l'ordinateur. Le kernel est une interface entre le logiciel et le matériel de l'ordinateur. 
 
 Shell signifie littéralement *coquille* en français, et correspond à l'interface système de l'ordinateur. C'est un langage intégré à Linux, qui va interpréter des commandes. le Shell est un programme que l'on trouve dans le répertoire /bin (mettre photo) On retrouve les commandes Shell dans le répertoire /bin de notre machine. 
 
