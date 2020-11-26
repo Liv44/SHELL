@@ -1,53 +1,20 @@
 # LE SHELL
 
+EXPLIQUER LE TRAVAIL ET LA COMPOSITION DU GIT
+
 J'ai décidé de travailler sur le sujet du Shell car je travaille avec un Mac. Mac ayant un noyau Unix, il comprends déjà le langage Shell, contrairement à Windows qui doit utiliser le PowerShell. 
 
 Unix fait partie de Linux, le noyaux est libre etc.
 
-
-
+Ce répertoire se décompose ainsi : dans le fichier README.md, vous retrouverez le sommaire, la présentation du travail et un lien vers les sources utilisées. 
 
 ## Sommaire
 1. [Les définitions](./definition.md)
-2. [Les commandes Shell](./cmd.md)
+2. [Les différents types de Shell](./types.md)
 3. [Les scripts Shell](./script.md)
 4. [Third Example](./example.md)
 
-## Sources
-
-### Définitions
-* [L'OS expliqué en 3 minutes / Cokie connecté](https://www.youtube.com/watch?v=AcZ87MTiXr4)
-* [Qu'est-ce qu'un système d'exploitation / Astuces et aide informatique](https://www.astuces-aide-informatique.info/878/definition-systeme-exploitation)
-* [Système d'exploitation : Qu'est-ce que c'est ? / Futura Tech](https://www.futura-sciences.com/tech/definitions/informatique-systeme-exploitation-11820/)
-
-* [OpenClassRooms](https://openclassrooms.com/fr/courses/43538-reprenez-le-controle-a-laide-de-linux/42867-introduction-aux-scripts-shell)
-* 
-* 
-# Ceci est un titre de niveau 1
-## Ceci est un titre de niveau 2
-### Ceci est un titre de niveau 3
-
-
-*Ceci est un texte en italique*
-
-**Ceci est un texte en gras**
-
-#### Liste à puce ####
-
-* Puce 1
-* Puce 2
-* Puce 3 
-    * Une sous-puce
-    * Une sous-puce
-
-1. Puce numéro 1
-2. Puce numéro 2
-
-> Ceci est une citation
->> Ceci est une réponse à la citation
->> 
->> * test 
-
+## [Sources](./sources.md)
 
 Voici un code en C :
 
@@ -59,12 +26,7 @@ Voici un code en C :
 
 Ceci est une `Fonction`.
 
-Ceci est un [lien](http://www.google.fr)
-
 Ceci est une ![image](oliviamoreau/Desktop/test.jpg)
-
-
----------
 
 définir
 types de shell : comment on fait, ce que ça change

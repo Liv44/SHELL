@@ -8,3 +8,6 @@ Voici les liens des sites utilisés pour réaliser ce travai. Ce fichier est ré
 * [Système d'exploitation : Qu'est-ce que c'est ? / Futura Tech](https://www.futura-sciences.com/tech/definitions/informatique-systeme-exploitation-11820/)
 
 ## 2. Les Types de Shell
+
+
+* [OpenClassRooms](https://openclassrooms.com/fr/courses/43538-reprenez-le-controle-a-laide-de-linux/42867-introduction-aux-scripts-shell)
