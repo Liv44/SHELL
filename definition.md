@@ -40,7 +40,7 @@ Les composants d'un OS
     * pilotes
     * permettent la gestion des périphériques
 
-*Source : [L'OS expliqué en 3 minutes / Cokie connecté](https://www.youtube.com/watch?v=AcZ87MTiXr4)
+*Source : [L'OS expliqué en 3 minutes / Cokie connecté](https://www.youtube.com/watch?v=AcZ87MTiXr4)*
 
 Le **système d'exploitation** *(ou logicel système, Operating System : **OS**)*
 
