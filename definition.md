@@ -4,18 +4,9 @@
 
 *Avant de définir le Shell, je souhaite comprendre la notion de système d'exploitation pour bien comprendre l'utilisation du Shell*
 
-Le **système d'exploitation** *(ou logicel système, Operating System : **OS**)*
 
-* est un ensemble de programmes qui dirige l'utilisation des ressources d'un ordinateur par des logiciels applicatifs (Wikipedia). . 
-
-* est un logiciel qui pilote des dispositifs matériels et reçoit des instructions de l'utilisateur ou d'autres logiciels (ou applications). Ces logiciels doivent être adaptés à un système d'exploitation (Futura Sciences)
-* représente l'ensemble des programmes qui pilote les différents composants de l'appareil informatique et lui permet donc de foctionner. Il permet donc de faire l'interface entre l'utilisateur et le matériel informatique (Actuce et aide informatique)
-
-Le système d'exploitation est composé principalement d'un noyau et d'une coquille nommés chacun **KERNEL** et **SHELL**. Le kernel permet la communication directe avec les ressources matérielles.
-
-> Pour résumer : Le **système d'exploitation** est un programme système. Le **kernel** est UNE PARTIE importante du système d'exploitation. Le système d'exploitation est une interface entre l'utilisateur et le matériel de l'ordinateur. Le kernel est une interface entre le logiciel et le matériel de l'ordinateur. 
-
-C'est le premier programme exécuté par la machine. L'OS guide la machine pour démarrer. Après que la machine aie bien exécuté les commandes initiales de l'OS, l'OS laissera la main à l'utilisateur pour exécuter d'autres commandes. L'OS assure le lien entre les ressources matérielles de la machine (HardWare) et les applications (SoftWare). L'utilisateur peut passer via les applications pour demander un service mais aussi via l'interface graphique ou de programmation (avec les lignes de commandes)
+Le **système d'exploitation** (ou Operating System / OS / logiciel système) représente l'*ensemble des programmes qui pilotent les différents composants de l'appareil informatique et reçoit des instructions de l'utilisateur ou d'autres logiciels*. L'OS assure le lien entre les *ressources matérielles* de la machine (HardWare) et les *applications* (SoftWare).
+Le système d'exploitation est le *premier programme* exécuté par la machine au démarrage car il précise les tâches à effectuer. Dès que la machine a bien exécuté les commandes initiales du logiciel système, ce dernier laissera la main à l'utilisateur pour exécuter d'autres commandes. L'utilisateur utilisera les application ou l'interface graphique ou de programmation pour demander l'exécution d'une tâche par l'OS.
 
 Les composants d'un OS
 * Le **KERNEL**
@@ -37,7 +28,13 @@ Les composants d'un OS
     * pilotes
     * permettent la gestion des périphériques
 
-*Source : [L'OS expliqué en 3 minutes / Cokie connecté](https://www.youtube.com/watch?v=AcZ87MTiXr4)*
+*Sources :*
+* [L'OS expliqué en 3 minutes / Cokie connecté](https://www.youtube.com/watch?v=AcZ87MTiXr4)
+* [Qu'est-ce qu'un système d'exploitation / Astuces et aide informatique](https://www.astuces-aide-informatique.info/878/definition-systeme-exploitation)
+* [Système d'exploitation : Qu'est-ce que c'est ? / Futura Tech](https://www.futura-sciences.com/tech/definitions/informatique-systeme-exploitation-11820/)
+
+
+> Pour résumer : Le **système d'exploitation** est un programme système. Le **kernel** est UNE PARTIE importante du système d'exploitation. Le système d'exploitation est une interface entre l'utilisateur et le matériel de l'ordinateur. Le kernel est une interface entre le logiciel et le matériel de l'ordinateur. 
 
 ---------------------
 
