@@ -34,7 +34,7 @@ Le système d'exploitation est le **premier programme exécuté** par la machine
 
 ---------------------
 
-## Et le Shell dans tout ça ?
+## La coquille du système d'exploitation : le **SHELL**
 
 Shell signifie littéralement *coquille* en français, et correspond à l'interface système de l'ordinateur. C'est un langage intégré à Linux, qui va interpréter des commandes. le Shell est un programme que l'on trouve dans le répertoire /bin (mettre photo) On retrouve les commandes Shell dans le répertoire /bin de notre machine. 
 
