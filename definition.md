@@ -2,11 +2,11 @@
 
 ## HardWare et BIOS
 
-Le HardWare est le matériel physique constituant les ordinateurs de bureau, le PC, les matériels externes. (Apprendre informatique)
+Le **HardWare** est le matériel physique constituant les ordinateurs de bureau, le PC, les matériels externes. (Apprendre informatique)
 
-Le BIOS (basic Input Output System, soit Système élémentaire d’entrée/sortie) se lancé automatiquement au démarrage. Le bios a pour fonction de faire le lien entre le système d’exploitation et tous les périphériques se trouvant dans l’unité centrale ou portable. (tutoriauxpc.com) 
+Le **BIOS** (basic Input Output System, soit Système élémentaire d’entrée/sortie) se lancé automatiquement au démarrage. Le bios a pour fonction de faire le lien entre le système d’exploitation et tous les périphériques se trouvant dans l’unité centrale ou portable. (tutoriauxpc.com) 
 
-Le BIOS est un ensemble de foctions, contenu dans la mémoire morte (ROM) de la carte mère d’un ordinateur, lui permettant d’effectuer des opérations de base, lors de sa mise sous tension. C’est le centre de contrôle de la carte mère.
+Le **BIOS** est un ensemble de fonctions, contenu dans la mémoire morte (ROM) de la carte mère d’un ordinateur, lui permettant d’effectuer des opérations de base, lors de sa mise sous tension. C’est le centre de contrôle de la carte mère.
 
 * Il initialise tous les composants de la carte mère
 * il identifie les périphériques internes et externes qui lui sont connectés
@@ -18,7 +18,7 @@ Le BIOS est un ensemble de foctions, contenu dans la mémoire morte (ROM) de la 
 
 *Avant de définir le Shell, je souhaiterai développer la structure d'un système d'exploitation*
 
-Le **système d'exploitation** 
+Le **système d'exploitation** *Ou logicel système, Operating System : **OS***
 Le système d'exploitation est aussi appelé logiciel système, ou Operating System (OS)
 
 
@@ -49,6 +49,5 @@ Linux est constitué de 2 environnements :
 * **L'environnement console** : On navigue à travers l'arborescence de l'ordinateur grâce à des lignes de commandes spécifiques. 
 
 Le Shell est donc un environnement console de Linux. 
-
 
 *[Retour au sommaire](./README.md)*
