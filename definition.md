@@ -1,8 +1,8 @@
-# Les définitions à connaître pour bien comprendre le Shell
+# Définitions
 
 ## HardWare et BIOS
 
-Le **HardWare** est le matériel physique constituant les ordinateurs de bureau, le PC, les matériels externes. (Apprendre informatique)
+Le **HardWare** correspond au matériel physique qui compose l'ordinateur. Contrairement au **software** qui correspond aux logiciels et applications installées sur l'ordinateur, le HardWare est extérieur, ce sont des éléments que nous pouvons manipuler, toucher. *(Source : [Apprendre informatique](https://www.apprendreinformatique.fr/quelle-difference-entre-hardware-et-software/))*
 
 Le **BIOS** (basic Input Output System, soit Système élémentaire d’entrée/sortie) se lancé automatiquement au démarrage. Le bios a pour fonction de faire le lien entre le système d’exploitation et tous les périphériques se trouvant dans l’unité centrale ou portable. (tutoriauxpc.com) 
 
@@ -16,7 +16,31 @@ Le **BIOS** est un ensemble de fonctions, contenu dans la mémoire morte (ROM) d
 
 ## Le système d'exploitation : OS
 
-*Avant de définir le Shell, je souhaiterai développer la structure d'un système d'exploitation*
+*Avant de définir le Shell, je souhaiterai développer la notion de système d'exploitation pour bien comprendre l'utilisation du Shell*
+
+C'est le premier programme exécuté par la machine. L'OS guide la machine pour démarrer. Après que la machine aie bien exécuté les commandes initiales de l'OS, l'OS laissera la main à l'utilisateur pour exécuter d'autres commandes. L'OS assure le lien entre les ressources matérielles de la machine (HardWare) et les applications (SoftWare). L'utilisateur peut passer via les applications pour demander un service mais aussi via l'interface graphique ou de programmation (avec les lignes de commandes)
+
+Les composants d'un OS
+* Le **KERNEL**
+    * Noyau
+    * gère les fonctions clés de l'OS
+    * permet la communication directe avec les ressources matérielles
+    * interface entre le logiciel et le matériel de l'ordinateur
+
+* Le **SHELL**
+    * interpréteur de commandes
+    * permet de communiquer avec l'OS par l'intermédiaire d'un langage de commandes
+
+* Le **FILE SYSTEM**
+    * Système de fichiers
+    * gère l'arborescence, l'écriture et la lecture des fichiers
+    * Enregistrer les fichiers ans une arborescence
+
+* Les **Drivers**
+    * pilotes
+    * permettent la gestion des périphériques
+
+*Source : [L'OS expliqué en 3 minutes / Cokie connecté](https://www.youtube.com/watch?v=AcZ87MTiXr4)
 
 Le **système d'exploitation** *(ou logicel système, Operating System : **OS**)*
 
