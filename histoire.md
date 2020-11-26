@@ -1,5 +1,19 @@
 # Les définitions à connaître pour bien comprendre le Shel
 
+## HardWare et BIOS
+
+Le HardWare est le matériel physique constituant les ordinateurs de bureau, le PC, les matériels externes. (Apprendre informatique)
+
+Le BIOS (basic Input Output System, soit Système élémentaire d’entrée/sortie) se lancé automatiquement au démarrage. Le bios a pour fonction de faire le lien entre le système d’exploitation et tous les périphériques se trouvant dans l’unité centrale ou portable. (tutoriauxpc.com) 
+
+Le BIOS est un ensemble de foctions, contenu dans la mémoire morte (ROM) de la carte mère d’un ordinateur, lui permettant d’effectuer des opérations de base, lors de sa mise sous tension. C’est le centre de contrôle de la carte mère.
+
+* Il initialise tous les composants de la carte mère
+* il identifie les périphériques internes et externes qui lui sont connectés
+* il démarre le système d’exploitation dans l’ordre croissant des périphériques disponibles en contenant un. (Wikipedia)
+
+
+
 ## Le système d'exploitation : OS
 
 *Avant de définir le Shell, je souhaiterai développer la structure d'un système d'exploitation*
