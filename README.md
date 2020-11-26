@@ -8,7 +8,7 @@ Unix fait partie de Linux, le noyaux est libre etc.
 
 
 ## Sommaire
-1. [L'histoire du Shell](./histoire.md)
+1. [Les définitions](./definition.md)
 2. [Les commandes Shell](./cmd.md)
 3. [Les scripts Shell](./script.md)
 4. [Third Example](./example.md)
