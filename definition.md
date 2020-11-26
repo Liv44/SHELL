@@ -30,7 +30,7 @@ Le système d'exploitation est le **premier programme exécuté** par la machine
     * Correspondent aux pilotes
     * Permettent la gestion des périphériques
 
-*[Sources](./sources)*
+*[Sources](./sources.md)*
 
 
 
