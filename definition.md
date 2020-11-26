@@ -46,10 +46,12 @@ Le Shell est un programme qui interprète les commandes données par l'utilisate
 
 le Shell est un programme que l'on trouve dans le répertoire /bin (mettre photo) On retrouve les commandes Shell dans le répertoire /bin de notre machine. 
 
-Le Shell permet donc de :
-* Exécuter des commandes
-* Explorer l'arborescence d'un système
-* Créer, éditer et supprimer des fichiers
+Le Shell permet :
+* D'exécutee les commandes
+* D'explorer l'arborescence d'un système
+* De créee, d'éditer et de supprimer des fichiers
+
+
 
 La principale utilité du Shell se trouve dans la création de scripts Shell qui permettent d'automatiser des actions que nous pourrions réaliser une à une à la main. (*Voir [Les Scripts Shell](./scripts.md)*)
 
