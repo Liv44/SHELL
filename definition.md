@@ -30,11 +30,7 @@ Le système d'exploitation est le **premier programme exécuté** par la machine
     * Correspondent aux pilotes
     * Permettent la gestion des périphériques
 
-*[Sources](./sources.md)*
-
-
-
-> Pour résumer : Le **système d'exploitation** est un programme système. Le **kernel** est UNE PARTIE importante du système d'exploitation. Le système d'exploitation est une interface entre l'utilisateur et le matériel de l'ordinateur. Le kernel est une interface entre le logiciel et le matériel de l'ordinateur. 
+> Pour résumer : Le **système d'exploitation** est un programme système qui fait le lien entre les composants de la machine, les applications et les demandes de l'utilisateur. Il est principalement composé d'un noyau appelé **Kernel** et d'une coquille appelée **Shell**.
 
 ---------------------
 
@@ -57,4 +53,5 @@ Linux est constitué de 2 environnements :
 
 Le Shell est donc un environnement console de Linux. 
 
-*[Retour au sommaire](./README.md)*
+*[Retour au sommaire](./README.md)* 
+*[Sources](./sources.md)*
