@@ -23,3 +23,5 @@ Voici un code en C :
         printf("Hello world!\n");
         return 0;
     }
+
+La fonction `printf()` permet d'afficher du texte
