@@ -36,7 +36,7 @@ Le système d'exploitation est le **premier programme exécuté** par la machine
 
 ## La coquille du système d'exploitation : le **SHELL**
 
-Le Shell est un **programme qui interprète les commandes** données par l'utilisateur **et les exécute** en les transmettant au système d'exploitation. Les commandes sont saisies dans la **console** ou un **Terminal**, qui sont tous deux des invites de commande. On travaille donc sur l'*environnement console*, contrairement à l'*environnement graphique* où l'on navigue dans la machine grâce à la souris et/ou au clavier avec des icônes visuelles assez intuitives. Ici, ce sont les commandes soumises par l'utilisateur via son clavier et interprétées par le Shell qui permettront d'**exécuter une ou plusieurs actions** sur notre machine. 
+Le Shell est un **programme qui interprète les commandes** données par l'utilisateur **et les exécute** en les transmettant au système d'exploitation. Les commandes sont saisies dans la **console** ou un **Terminal**, qui sont tous deux des invites de commande. On travaille donc sur l'*interface console*, contrairement à l'*interface graphique* où l'on navigue dans la machine grâce à la souris et/ou au clavier avec des icônes visuelles assez intuitives. Ici, ce sont les commandes soumises par l'utilisateur via son clavier et interprétées par le Shell qui permettront d'**exécuter une ou plusieurs actions** sur notre machine. 
 
 On retrouve les commandes Shell dans le répertoire */bin* de notre machine. 
 
