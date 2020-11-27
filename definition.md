@@ -30,7 +30,7 @@ Le système d'exploitation est le **premier programme exécuté** par la machine
     * Correspondent aux pilotes
     * Permettent la gestion des périphériques
 
-![image](./img/systeme.png)
+./img/systeme.png
 
 > Pour résumer : Le **système d'exploitation** est un programme système qui fait le lien entre les composants de la machine, les applications et les demandes de l'utilisateur. Il est principalement composé d'un noyau appelé **Kernel** et d'une coquille appelée **Shell**.
 
