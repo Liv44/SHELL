@@ -1,6 +1,6 @@
 # Définitions
 
-## Le système d'exploitation : OS
+## <u>Le système d'exploitation : OS<u>
 
 *Avant de définir le Shell, je souhaite comprendre la notion de système d'exploitation pour bien comprendre l'utilisation du Shell*
 
@@ -32,7 +32,7 @@ Le système d'exploitation est le **premier programme exécuté** par la machine
 
 
 ![Schéma du système d'exploitation](./img/architecture.png)
-- hello - 
+
 
 > Pour résumer : Le **système d'exploitation** est un programme système qui fait le lien entre les composants de la machine, les applications et les demandes de l'utilisateur. Il est principalement composé d'un noyau appelé **Kernel** et d'une coquille appelée **Shell**.
 
