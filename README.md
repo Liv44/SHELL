@@ -30,8 +30,6 @@ Voici un code en C :
 
 Ceci est une `Fonction`.
 
-Ceci est une ![image](oliviamoreau/Desktop/test.jpg)
-
 faire des projets simples
 
 automatique. lignes de commandes à taper à la main MAIS optimise le travail. L'idée du Shell permet d'automatiser les lignes de commandes et les tâches de sorte à ne rien taper à la main. Étudier le SHELL : un cours de SHELL irait vite car c'est un/plus scripts, avec lignes de commandes. Structures de base de la programmation. Après ces bases : ce ne sera plus le shell. Lignes de commandes, fonctionnalités dans les lignes de commandes. 

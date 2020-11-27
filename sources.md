@@ -17,4 +17,12 @@ Voici les liens des sites utilisés pour réaliser ce travai. Ce fichier est ré
 
 ## 2. Les Types de Shell
 
+## 3. Scripts SHELL
+    
+### les variables
+* [Bash - La variable d'environnement PATH | Comment ça marche](https://www.commentcamarche.net/faq/3585-bash-la-variable-d-environnement-path)
+* [Les variables d'environnement | Wiki Ubuntu-fr](https://doc.ubuntu-fr.org/variables_d_environnement)
+* [Les variables d'environnement | Mon pense-bête (quennec)](https://www.quennec.fr/trucs-astuces/systèmes/gnulinux/programmation-shell-sous-gnulinux/paramétrer-son-environnement-de-travail/les-variables-denvironnement)
+
+* http://www.linux-france.org/~nquiniou/module_ui/prog_shell/ch13s02.html#id2575202
 
