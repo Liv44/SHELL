@@ -13,6 +13,8 @@ Voici les liens des sites utilisés pour réaliser ce travai. Ce fichier est ré
 * [Cours Shell Unix, Commandes et programmation | Sébastient Rohaut](https://doc.lagout.org/operating%20system%20/Unix/cours_shell_unix.pdf)
 * [Introduction à l'environnement Unix | Albert Hertzog](https://www.lpthe.jussieu.fr/~teber/Teaching/cours-unix-A.pdf)
 
+* [Linux Architecture | TacAdmin.net](https://tecadmin.net/tutorial/linux/linux-architecture/)
+
 ## 2. Les Types de Shell
 
 
