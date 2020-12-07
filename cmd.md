@@ -9,6 +9,16 @@ Voici donc des *commandes Shell essentielles*.
 
 ----------
 
+## La commande **man**
+
+La commande man est un manuel intégré dans le système qui permet d'afficher toutes les informations d'une commande. On retrouve différentes rubriques telles que le nom, la description ou l'environnement utilisé. C'est dans cette page qu'on peut voir l'utilité de certains arguments.
+
+![man](./img/man.png)
+![man2](./img/man2.png)
+> Voici la page man de la commande pwd.
+
+-----
+
 ## Naviguer entre les fichiers/dossiers
 
 * ### pwd
@@ -28,13 +38,7 @@ La commande **cd** permet de changer de répertoire de travail. Il suffit d'ins�
 
 > De mon répertoire principal **oliviamoreau**, j'accède à mon répertoire nommé **SHELL**. On le voit car le tilde est remplacée par le nom de mon répertoire. 
 >> Le **tilde** signifie que nous nous trouvons dans le répertoire utilisateur. 
-
-    cd .. 
-
 La commande **cd** suivie de 2 points **..** permet de revenir dans le répertoire précédant sans taper le nom.
-
-    cd
-
 La commande **cd** sans arguments derrière permet de revenir au répertoire utilisateur.
 
 ![cd2](./img/cd2.png)
@@ -49,11 +53,7 @@ La commande **ls** permet de voir le contenu du répertoire dans lequel nous nou
 ![ls](./img/ls.png)
 
 > L'utilisation de la commande **ls** sur mon répertoire SHELL montre bien le contenu de ce dernier.
-
-    -a
 L'argument **-a** sur la commande **ls** permet d'afficher les fichiers cachés du répertoire.
-
-    -l
 L'argument **-l** sur la commande **ls** permet d'afficher des informations précises sur le contenu du répertoire comme les permissions, l'utilisateur propriétaire, le groupe de cet utilisateur, la taille du fichier, la date et l'heure de la dernière modification et le nom du fichier.
 
 ![ls3](./img/ls3.png)
