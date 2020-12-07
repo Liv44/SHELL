@@ -36,6 +36,8 @@ La commande **cd** sans argument derrière permet de revenir au répertoire util
 
 ![cd2](./img/cd2.png)
 
+> Sur cet exemple, j'accède à mon répertoire **img** grâce à la commande **cd img**. Je reviens ensuite au répertoire contenant le répertoire actif grâce à **cd ..**. Enfin, en utilisant simplement **cd** dans mon répertoire img je reviens dans mon répertoire utilisateur représenté par le tilde.
+
 
 * ls
 
