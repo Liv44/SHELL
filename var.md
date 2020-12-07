@@ -1,8 +1,6 @@
 # LES VARIABLES D'ENVIRONNEMENT
 
-Une variable d'environnement est une donnée du système que l'on peut récupérer à n'importe quel moment dans nos scripts Shell. 
-
-On peut comparer ça avec une variable globale initialisée au début du script et récupérable à n'importe quel moment du script.
+Une variable d'environnement est une donnée du système que l'on peut récupérer à n'importe quel moment dans nos scripts Shell. On peut comparer ce type de variable à une variable globale initialisée au début du script et récupérable du début à la fin dans ce script.
 
 ## Liste des variables d'environnement
 
