@@ -100,6 +100,9 @@ Pour supprimer un dossier, on utilise l'argument -d avant le nom du dossier.
 La commande **cat** permet d'afficher le contenu d'un fichier.
 
 ![cat](./img/cat.png)
+> La commande **cat** sur mon fichier git.sh montre bien le contenu de ce dernier.
+>> ![cat-e](./img/cat-e.png)
+>>> En ajoutant l'argument -e, on peut voir les sauts de ligne dans le fichier.
 
 * ### cp
 
