@@ -32,8 +32,6 @@ La commande **pwd** permet d'afficher le répertoire de travail dans lequel on s
 
 La commande **cd** permet de changer de répertoire de travail. Il suffit d'insérer en argument le nom du répertoire dans lequel on veut aller. 
 
-    cd [nom-répertoire]
-
 ![cd](./img/cd.png)
 
 > De mon répertoire principal **oliviamoreau**, j'accède à mon répertoire nommé **SHELL**. On le voit car le tilde est remplacée par le nom de mon répertoire. 
