@@ -39,3 +39,6 @@ On utilise **$** pour sélectionner les variables
 ![printenv](./img/printenv.png)
 
 > Avec la commande **printenv** j'ai affiché la liste des variables d'environnement actives.
+
+*[Retour au sommaire](./README.md)* | 
+*[Sources](./sources.md)* | *[Chapitre suivant (Les conditions)](./conditions.md)*
