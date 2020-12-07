@@ -75,7 +75,7 @@ La commande **mv** permet de déplacer un fichier/répertoire. Pour cela il faut
 
 > Cet exemple nous montre le déplacement du fichier **git.sh** initalement contenu dans le dossier **SHELL** mais qui se retrouve dans le dossier **img**.
 >>![mvgit2](./img/mvgit2.png) 
->>Si l'on veut le remettre dans son dossier initial il suffit de revenir dans le répertoire initial et d'insérer un *.* simple en second argument. Cela signifie que l'on déplace le fichier dans le répertoire actif.
+>>> Si l'on veut le remettre dans son dossier initial il suffit de revenir dans le répertoire initial et d'insérer un *.* simple en second argument. Cela signifie que l'on déplace le fichier dans le répertoire actif.
 
 
 
