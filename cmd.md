@@ -6,18 +6,18 @@ Voici donc des *commandes Shell essentielles*.
 
 ## Naviguer entre les fichiers/dossiers
 
-* pwd
+* ### pwd
 La commande **pwd** permet d'afficher le répertoire de travail dans lequel on se trouve et l'arborescence de ce dernier.
 
 ![pwd](./img/pwd.png)
 
 > Ici, on voit que mon dossier img se trouve dans le dossier SHELL, lui-même se trouvant dans mon dossier utilisateur oliviamoreau, cet utilisateur étant dans le dossier Users.
 
-* cd 
+* ### cd 
 
 La commande **cd** permet de changer de répertoire de travail. 
 
-    * cd [nom-répertoire]
+    cd [nom-répertoire]
 
 Il suffit d'insérer le nom du répertoire dans lequel on veut aller. 
 
@@ -30,7 +30,7 @@ Il suffit d'insérer le nom du répertoire dans lequel on veut aller.
 
 La commande **cd** suivie de 2 points **..** permet de revenir dans le répertoire précédant sans taper le nom.
 
-    * cd
+    cd
 
 La commande **cd** sans argument derrière permet de revenir au répertoire utilisateur.
 
