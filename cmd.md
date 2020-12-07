@@ -2,6 +2,9 @@
 
 Grâce à des commandes saisies dans notre Terminal et à l'interprétation qu'en fera le Shell, il est possible de naviguer dans l'arborescence des fichiers, d'en créer, de créer des utilisateurs, gérer les autorisations, lire le contenu d'un fichier, etc. 
 
+Une commande se présente sous cette forme : *nom-de-la-commande* *arguments*
+Les arguments permettent de spécifier l'action demandée.
+
 Voici donc des *commandes Shell essentielles*.
 
 ## Naviguer entre les fichiers/dossiers
@@ -15,11 +18,9 @@ La commande **pwd** permet d'afficher le répertoire de travail dans lequel on s
 
 * ### cd 
 
-La commande **cd** permet de changer de répertoire de travail. 
+La commande **cd** permet de changer de répertoire de travail. Il suffit d'insérer en argument le nom du répertoire dans lequel on veut aller. 
 
     cd [nom-répertoire]
-
-Il suffit d'insérer le nom du répertoire dans lequel on veut aller. 
 
 ![cd](./img/cd.png)
 
@@ -32,20 +33,33 @@ La commande **cd** suivie de 2 points **..** permet de revenir dans le répertoi
 
     cd
 
-La commande **cd** sans argument derrière permet de revenir au répertoire utilisateur.
+La commande **cd** sans arguments derrière permet de revenir au répertoire utilisateur.
 
 ![cd2](./img/cd2.png)
 
 > Sur cet exemple, j'accède à mon répertoire **img** grâce à la commande **cd img**. Je reviens ensuite au répertoire contenant le répertoire actif grâce à **cd ..**. Enfin, en utilisant simplement **cd** dans mon répertoire img je reviens dans mon répertoire utilisateur représenté par le tilde.
 
 
-* ls
+* ## ls
+
+La commande **ls** permet de voir le contenu du répertoire dans lequel nous nous trouvons. Cette commande peut être spécifiée avec des flags qui permettront de cibler ce que l'on veut afficher.
 
 ![ls](./img/ls.png)
 
-    * -a
-    * -l
-    * -la
-* 
+> L'utilisation de la commande **ls** sur mon répertoire SHELL montre bien le contenu de ce dernier.
+
+    -a
+L'argument **-a** sur la commande **ls** permet d'afficher les fichiers cachés du répertoire.
+
+    -l
+L'argument **-l** sur la commande **ls** permet d'afficher des informations précises sur le contenu du répertoire comme les permissions, l'utilisateur propriétaire, le groupe de cet utilisateur, la taille du fichier, la date et l'heure de la dernière modification et le nom du fichier.
+
+![ls3](./img/ls3.png)
+
+
+
+On peut aussi regrouper les arguments comme ci-dessous :
+![ls2](./img/ls2.png)
+
 
 
