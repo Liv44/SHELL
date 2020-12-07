@@ -26,7 +26,7 @@ Il suffit d'insérer le nom du répertoire dans lequel on veut aller.
 > De mon répertoire principal **oliviamoreau**, j'accède à mon répertoire nommé **SHELL**. On le voit car le tilde est remplacée par le nom de mon répertoire. 
 >> Le **tilde** signifie que nous nous trouvons dans le répertoire utilisateur. 
 
-    * cd .. 
+    cd .. 
 
 La commande **cd** suivie de 2 points **..** permet de revenir dans le répertoire précédant sans taper le nom.
 
