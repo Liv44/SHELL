@@ -6,8 +6,6 @@ Une commande se présente sous cette forme : *nom-de-la-commande* *arguments*
 Les arguments permettent de spécifier l'action demandée.
 
 Voici donc des *commandes Shell essentielles*.
-1. [Man](cmd.md#test)
-2. [Naviguer entre les dossiers](#dossier)
 
 ----------
 
@@ -21,7 +19,7 @@ La commande man est un manuel intégré dans le système qui permet d'afficher t
 
 -----
 
-## Naviguer entre les fichiers/dossiers
+## Naviguer entre les dossiers
 
 * ### pwd
 La commande **pwd** permet d'afficher le répertoire de travail dans lequel on se trouve et l'arborescence de ce dernier.
