@@ -24,12 +24,14 @@ Il suffit d'insérer le nom du répertoire dans lequel on veut aller.
 ![cd](./img/cd.png)
 
 > De mon répertoire principal **oliviamoreau**, j'accède à mon répertoire nommé **SHELL**. On le voit car le tilde est remplacée par le nom de mon répertoire. 
->> Le **tilde** signifie que nous nous trouvons dans le répertoire principal du système, répertoire utilisateur. 
+>> Le **tilde** signifie que nous nous trouvons dans le répertoire utilisateur. 
 
     * cd .. 
 
 La commande **cd** suivie de 2 points **..** permet de revenir dans le répertoire précédant sans taper le nom.
+
     * cd
+
 La commande **cd** sans argument derrière permet de revenir au répertoire utilisateur.
 
 ![cd2](./img/cd2.png)
