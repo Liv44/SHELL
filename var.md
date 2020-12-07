@@ -1,37 +1,32 @@
 LES VARIABLES D'ENVIRONNEMENT
 
-USER
-PATH
-LOGNAME : Nom de l'utilisateur connecté
-SSH_AUTH_SPCK
-HOME
-SHELL
-__CF_USER_TEXT_ENCODING
-TMPDIR
-XPC_SERVICE_NAME
-XPC_FLAGS
-ORIGINAL_XDG_CURRENT_DESKTOP
-SHLVL
-PWD
-OLDPWD
-TERM_PROGRAM : avec quel programme on gère le terminal
-TERM_PROGRAM_VERSION : la version du programme en question
-LANG
-COLORTERM
-... (VSCODE/GIT)
-TERM : 
-_
+Une variable d'environnement est une donnée du système que l'on peut récupérer à n'importe quel moment dans nos scripts Shell. 
+
+On peut comparer ça avec une variable globale initialisée au début du script et récupérable à n'importe quel moment du script.
+
+Voici une liste des variables d'environnement utilisables
+
+* USER : Nom de l'utilisateur
+* PATH : chemin d'accès au fichier bin qui contient le Shell
+* LOGNAME : Nom de l'utilisateur connecté
+* HOME : Répertoire home
+* SHELL : Type de Shell utilisé
+* PWD : Répertoire et chemin d'accès dans lequel on se trouve
+* TERM_PROGRAM : Programme utilisé pour gérer le terminal
+* TERM_PROGRAM_VERSION : La version du programme en question
+* LANG : Langue utilisée avec son encodage
+* _ : chemin d'accès à la commande printenv
 
 
 
 COMMANDES UTILES : 
 
-printenv
-echo $VAR
-set (liste des variables paramétrées)
-env : variables exportées d'office 
+* printenv : Affiche les variables d'environnement actives
+* echo $VAR : Affiche le contenu de la variable d'environnement 
+* set (liste des variables paramétrées)
+* env : variables exportées d'office 
 
-utiliser $ pour sélectionner les variables
+On utilise **$** pour sélectionner les variables
 
 >"Un shell conserve un environnement qui inclut un ensemble de variables définies par le programme login, le fichier d'initialisation système et les fichiers d'initialisation utilisateur. En outre, certaines variables sont définies par défaut." [Guide d'administration système : administration de base | Oracle](https://docs.oracle.com/cd/E24843_01/html/E23288/userconcept-23295.html)
 
