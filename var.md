@@ -36,6 +36,6 @@ Exemples
 
 > Avec la commande **echo** j'ai demandé au Shell de m'imprimer le nom de l'utilisateur actif. 
 
-![printenv](./printenv.png)
+![printenv](./img/printenv.png)
 
 > Avec la commande **printenv** j'ai affiché la liste des variables d'environnement actives.
