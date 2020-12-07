@@ -83,9 +83,19 @@ La commande mv permet aussi de modifier le nom d'un fichier. Pour cela, on met e
 
 > Grâce à la commande mv, on a modifié le fichier **git.sh** en **coucou.sh**.
 
-
-
 * ### rm
+La commande **rm** permet de supprimer un fichier. Il suffit de mettre en argument le nom du fichier à supprimer.
+
+![rm](./img/rm.png)
+
+> Le fichier test.sh a bien été supprimé du répertoire SHELL.
+
+Pour supprimer un dossier, on utilise l'argument -d avant le nom du dossier.
+
+![rm2](./img/rm2.png)
+
+> Le dossier test n'est pas supprimable si l'on n'utilise pas l'argument **-d**. Le Terminal affiche "rm : test : is a directory." Avec l'argument **-d**, le dossier est bien supprimé.
+
 * ### cat
 * ### cp
 

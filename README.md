@@ -21,6 +21,12 @@ Ce répertoire se décompose ainsi : dans le fichier README.md, vous retrouverez
 
 ## [Sources](./sources.md)
 
+variable globale
+variable environnement : infos du système qui sont mis à disposition et stokckés dans les variables.
+
+faire des listes sur ce que je veux parler.
+boucles pour / tant que 
+
 Voici un code en C :
 
     int main()
@@ -35,3 +41,17 @@ faire des projets simples
 
 automatique. lignes de commandes à taper à la main MAIS optimise le travail. L'idée du Shell permet d'automatiser les lignes de commandes et les tâches de sorte à ne rien taper à la main. Étudier le SHELL : un cours de SHELL irait vite car c'est un/plus scripts, avec lignes de commandes. Structures de base de la programmation. Après ces bases : ce ne sera plus le shell. Lignes de commandes, fonctionnalités dans les lignes de commandes. 
 comprendre la base du shell, faire un script en shell et mettre des choses dans ce scripts. Créer un dossier, un fichier, mettre quelque chose : lignes de commande. 
+
+echo "Que voulez-vous faire ?
+1- Créer un utilisateur
+2- mofidier un utilisateur
+3- supprimer un utilisateur
+4- voir les utilisateurs
+5- faire une recherche"
+
+read result
+
+if [ "$result" = "1" ] 
+then
+ls -a
+fi
