@@ -83,6 +83,15 @@ La commande mv permet aussi de modifier le nom d'un fichier. Pour cela, on met e
 
 > Grâce à la commande mv, on a modifié le fichier **git.sh** en **coucou.sh**.
 
+
+* ### cp
+La commande **cp** permet de copier et coller un fichier ou un dossier.
+
+![cp](./img/cp.png)
+> Les fichiers Linux Mac et Windows ont bien été collés dans le dossier **OS** tout en restant dans le dossier **test**.
+>>![cp](./img/cp2.png)
+>>> Le dossier OS ne peut pas être copié dans le dossier OS_2 sans utiliser l'argument **-r** qui permet la récursivité.
+
 * ### rm
 La commande **rm** permet de supprimer un fichier. Il suffit de mettre en argument le nom du fichier à supprimer.
 
@@ -103,8 +112,6 @@ La commande **cat** permet d'afficher le contenu d'un fichier.
 > La commande **cat** sur mon fichier git.sh montre bien le contenu de ce dernier.
 >> ![cat-e](./img/cat-e.png)
 >>> En ajoutant l'argument -e, on peut voir les sauts de ligne dans le fichier.
-
-* ### cp
 
 
 
