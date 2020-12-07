@@ -30,4 +30,12 @@ On utilise **$** pour sélectionner les variables
 
 >"Un shell conserve un environnement qui inclut un ensemble de variables définies par le programme login, le fichier d'initialisation système et les fichiers d'initialisation utilisateur. En outre, certaines variables sont définies par défaut." [Guide d'administration système : administration de base | Oracle](https://docs.oracle.com/cd/E24843_01/html/E23288/userconcept-23295.html)
 
+Exemples
 
+![var](./img/var.png)
+
+> Avec la commande **echo** j'ai demandé au Shell de m'imprimer le nom de l'utilisateur actif. 
+
+![printenv](./printenv.png)
+
+> Avec la commande **printenv** j'ai affiché la liste des variables d'environnement actives.
