@@ -9,7 +9,9 @@ Voici donc des *commandes Shell essentielles*.
 Pour entrer ou sortir des dossiers, on utilise la commande **cd**.
 
 * pwd
+
 ![pwd](./img/pwd.png)
+
 * cd
     * cd *nom-du-dossier*
     * cd .. 
