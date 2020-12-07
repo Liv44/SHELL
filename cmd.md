@@ -6,7 +6,7 @@ Une commande se présente sous cette forme : *nom-de-la-commande* *arguments*
 Les arguments permettent de spécifier l'action demandée.
 
 Voici donc des *commandes Shell essentielles*.
-1. [Man](#man)
+1. [Man](cmd.md#test)
 2. [Naviguer entre les dossiers](#dossier)
 
 ----------
