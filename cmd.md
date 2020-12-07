@@ -77,6 +77,12 @@ La commande **mv** permet de déplacer un fichier/répertoire. Pour cela il faut
 >>![mvgit2](./img/mvgit2.png) 
 >>> Si l'on veut le remettre dans son dossier initial il suffit de revenir dans le répertoire initial et d'insérer un *.* simple en second argument. Cela signifie que l'on déplace le fichier dans le répertoire actif.
 
+La commande mv permet aussi de modifier le nom d'un fichier. Pour cela, on met en premier argument le nom de l'élément à modifier et en second argument le nom que l'on veut qu'il prenne. 
+
+![coucou](./img/coucou.png)
+
+> Grâce à la commande mv, on a modifié le fichier **git.sh** en **coucou.sh**.
+
 
 
 * ### rm
