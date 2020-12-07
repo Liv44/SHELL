@@ -7,6 +7,8 @@ Les arguments permettent de spécifier l'action demandée.
 
 Voici donc des *commandes Shell essentielles*.
 
+----------
+
 ## Naviguer entre les fichiers/dossiers
 
 * ### pwd
@@ -58,6 +60,8 @@ L'argument **-l** sur la commande **ls** permet d'afficher des informations pré
 
 *On peut aussi regrouper les arguments comme ci-dessous :*
 ![ls2](./img/ls2.png)
+
+----------
 
 ## Créer, modifier, déplacer des fichiers/dossiers
 
