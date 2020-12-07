@@ -40,7 +40,7 @@ La commande **cd** sans arguments derrière permet de revenir au répertoire uti
 > Sur cet exemple, j'accède à mon répertoire **img** grâce à la commande **cd img**. Je reviens ensuite au répertoire contenant le répertoire actif grâce à **cd ..**. Enfin, en utilisant simplement **cd** dans mon répertoire img je reviens dans mon répertoire utilisateur représenté par le tilde.
 
 
-* ## ls
+* ### ls
 
 La commande **ls** permet de voir le contenu du répertoire dans lequel nous nous trouvons. Cette commande peut être spécifiée avec des flags qui permettront de cibler ce que l'on veut afficher.
 
@@ -56,10 +56,31 @@ L'argument **-l** sur la commande **ls** permet d'afficher des informations pré
 
 ![ls3](./img/ls3.png)
 
-
-
-On peut aussi regrouper les arguments comme ci-dessous :
+*On peut aussi regrouper les arguments comme ci-dessous :*
 ![ls2](./img/ls2.png)
+
+## Créer, modifier, déplacer des fichiers/dossiers
+
+* ### touch
+ La commande **touch** permet de créer un fichier.
+
+
+* ### mkdir
+La commande **mkdir** permet de créer un dossier/répertoire.
+
+* ### mv
+La commande **mv** permet de déplacer un fichier/répertoire. Pour cela il faut mettre en premier argument l'élément à déplacer et en second le dossier où l'on veut le déplacer. Exemple : 
+
+![mvgit](./img/mvgit.png)
+
+> Cet exemple nous montre le déplacement du fichier **git.sh** initalement contenu dans le dossier **SHELL** mais qui se retrouve dans le dossier **img**. ![mvgit2](./img/mvgit2.png)
+>> Si l'on veut le remettre dans son dossier initial il suffit de revenir dans le répertoire initial et d'insérer un *.* simple en second argument. Cela signifie que l'on déplace le fichier dans le répertoire actif.
+
+
+
+* ### rm
+* ### cat
+* ### cp
 
 
 
