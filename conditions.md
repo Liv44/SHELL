@@ -63,15 +63,15 @@ On peut appliquer des conditions sur les chaînes de caractères, des nombres et
 | Conditions | Significations |
 | ----- | ----- |
 | ` [  ] ` | *Vérifie si* |
-| ` [ -a fichier ] ` | *Vérifie si* ce fichier existe |
-| ` [ -d dossier ] ` | *Vérifie si* ce dossier existe |
-| ` [ -L fichier ] ` | *Vérifie si* ce fichier est un lien symbolique |
-| ` [ -r fichier ] ` | *Vérifie si* ce fichier est lisible |
-| ` [ -w fichier ] ` | *Vérifie si* ce fichier est modifiable |
-| ` [ -x fichier ] ` | *Vérifie si* ce fichier est exécutable |
-| ` [ fichier1 -nt fichier2 ] ` | *Vérifie si* le fichier 1 est plus récent que le fichier 2 (**n**ether**t**han) |
-| ` [ fichier1 -ot fichier2 ] ` | *Vérifie si* le fichier 1 est plus vieux que le fichier 2 (**o**lder**t**han) |
-| ` [ -s fichier ] ` | *Vérifie si* ce fichier existe et que sa taille est supérieure à zéro |
+| ` [ -a fichier ] ` | *Vérifie si* ce fichier **existe** |
+| ` [ -d dossier ] ` | *Vérifie si* ce dossier **existe** |
+| ` [ -L fichier ] ` | *Vérifie si* ce fichier est un **lien symbolique** |
+| ` [ -r fichier ] ` | *Vérifie si* ce fichier est **lisible** |
+| ` [ -w fichier ] ` | *Vérifie si* ce fichier est **modifiable** |
+| ` [ -x fichier ] ` | *Vérifie si* ce fichier est **exécutable** |
+| ` [ fichier1 -nt fichier2 ] ` | *Vérifie si* le fichier 1 est plus **récent** que le fichier 2 (**n**ether**t**han) |
+| ` [ fichier1 -ot fichier2 ] ` | *Vérifie si* le fichier 1 est plus **vieux** que le fichier 2 (**o**lder**t**han) |
+| ` [ -s fichier ] ` | *Vérifie si* la taille du fichier est **supérieure à zéro** |
 
 
 
