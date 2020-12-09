@@ -7,8 +7,13 @@ Les arguments permettent de spécifier l'action demandée.
 
 Voici donc des *commandes Shell essentielles*.
 
-----------
+* [La commande Man](#man)
+* [Naviguer entre les dossiers](#naviguer)
+* [Créer des dossiers](#creer)
+* [Raccourcis clavier](#raccourcis)
 
+----------
+<div id='man'/>
 ## La commande **man**
 
 La commande man est un manuel intégré dans le système qui permet d'afficher toutes les informations d'une commande. On retrouve différentes rubriques telles que le nom, la description ou l'environnement utilisé. C'est dans cette page qu'on peut voir l'utilité de certains arguments.
@@ -18,6 +23,7 @@ La commande man est un manuel intégré dans le système qui permet d'afficher t
 > Voici la page man de la commande pwd.
 
 -----
+<div id='naviguer'/>
 
 ## Naviguer entre les dossiers
 
@@ -60,6 +66,7 @@ L'argument **-l** sur la commande **ls** permet d'afficher des informations pré
 ![ls2](./img/ls2.png)
 
 ----------
+<div id='creer'/>
 
 ## Créer, modifier, déplacer des fichiers/dossiers
 
@@ -116,6 +123,8 @@ La commande **cat** permet d'afficher le contenu d'un fichier.
 >>> En ajoutant l'argument -e, on peut voir les sauts de ligne dans le fichier.
 
 ----
+<div id='raccourcis'/>
+
 ## Les raccourcis clavier du Terminal
 
 ### Les flèches haut et bas
