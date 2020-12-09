@@ -7,20 +7,13 @@ On utilise les conditions pour faire une action SI une opération est vérifiée
 Pour écrire une condition on utilise la forme suivante : 
 
     if [ test à vérifier ]; then
-        action à effectuer 
+        action à effectuer si le test est vérifié
+    else 
+        action à effectuer si le test n'est pas vrai
     fi
 
 > * **if** correspond au SI
 > * **then** correspond au ALORS
+> * **else** correspond au SINON
 > * **fi** correspond à la fin de la condition.
 
-var1="Hello World!"
-
-if (si)
-SI ALORS FIN
-if [ test ]
-then
-    action à faire
-else
-    action à faire
-fi /*fin*/
