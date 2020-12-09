@@ -89,7 +89,7 @@ On peut appliquer des conditions sur les chaînes de caractères, des nombres et
 
 | Conditions | Significations |
 | ----- | ----- |
-| ` (( nb1 == nb2 )) ` | *Vérifie si* les nombres son égaux |
+| ` (( nb1 == nb2 )) ` | *Vérifie si* les nombres sont égaux |
 | ` (( nb1 != nb2 )) ` | *Vérifie si* les nombres ne sont pas égaux |
 | ` (( nb1 < nb2 )) ` | *Vérifie si* ` nb1 ` est **inférieur** à ` nb2 `|
 | ` (( nb1 <= nb2 )) ` | *Vérifie si* ` nb1 ` est **inférieur ou égal** à ` nb2 `|
