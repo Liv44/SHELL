@@ -1,8 +1,8 @@
-classe="B1"
+classe="B2"
 
-if [ $1 = "B1" ]; then 
+if [ $classe = "B1" ]; then 
     echo "Bonjour les B1 !"
-else 
-    echo "Je ne connais pas cette classe."
+elif [ $classe = "B2" ]; then 
+    echo "Bonjour les B2 !"
 fi
 

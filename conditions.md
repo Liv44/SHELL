@@ -17,7 +17,7 @@ Pour écrire une condition on utilise la forme suivante :
 > * **else** correspond au SINON
 > * **fi** correspond à la fin de la condition.
 
-## Exemple
+### Exemple IF ELSE
 
 Ce script permet d'imprimer une phrase en fonction du contenu de la variable **classe**.
 
@@ -26,5 +26,14 @@ Ce script permet d'imprimer une phrase en fonction du contenu de la variable **c
 > 2. SI ma variable **classe** est égale à **B1**; alors...
 > 3. J'imprime la phrase donnée
 > 4. SINON, j'imprime l'autre phrase.
->> **ATTENTION !! Il faut bien mettre des espaces lors du test.**
+>> **ATTENTION !! Il faut bien mettre des espaces avant les crochets et autour des valeurs à tester lors du test.**
 
+## SINON SI 
+
+On peut aussi vérifier une seconde condition si la première n'est pas vérifiée. Pour cela, on utilise le mot clé **elif** (un condensé de Else If, soit Sinon Si)
+
+### Exemple ELIF
+
+![cond2](./img/cond2.png)
+
+> Notre variable contient **B2**. Le script va vérifier si la variable est égale à **B1**. Si elle n'est pas égale à **B1** mais qu'elle est égale à **B2**, alors on affiche **"Bonjour les B2!"**.
