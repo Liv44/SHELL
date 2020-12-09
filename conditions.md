@@ -10,11 +10,9 @@ Pour écrire une condition on utilise la forme suivante :
         action à effectuer 
     fi
 
-> **if** correspond au SI
-
-> **then** correspond au ALORS
-
-> **fi** correspond à la fin de la condition.
+> * **if** correspond au SI
+> * **then** correspond au ALORS
+> * **fi** correspond à la fin de la condition.
 
 var1="Hello World!"
 
