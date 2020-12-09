@@ -84,6 +84,15 @@ On peut appliquer des conditions sur les chaînes de caractères, des nombres et
 | ` [ $nb1 -gt $nb2 ] ` | *Vérifie si* ` nb1 ` est **supérieur** à ` nb2 `|
 | ` [ $nb1 -ge $nb2 ] ` | *Vérifie si* ` nb1 ` est **supérieur ou égal** à ` nb2 `|
 
+### Exemples des conditions
+
+![cond4](./img/cond4.png) ![cond5](./img/cond5.png)
+
+> 1. Condition sur deux chaînes de caractères 
+> 2. Condition sur un nombre
+> 3. Condition sur un fichier
+
+
 
 
 
