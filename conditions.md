@@ -26,4 +26,5 @@ Ce script permet d'imprimer une phrase en fonction du contenu de la variable **c
 > 2. SI ma variable **classe** est égale à **B1**; alors...
 > 3. J'imprime la phrase donnée
 > 4. SINON, j'imprime l'autre phrase.
+>> **ATTENTION !! Il faut bien mettre des espaces lors du test.**
 
