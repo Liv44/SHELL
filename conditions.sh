@@ -1,8 +1,8 @@
-read -p "Quel âge avez-vous ? " reponse
+classe="B1"
 
-if [ $reponse -lt 18 ]
-then 
-    echo "Vous ne rentrerez pas !"
+if [ $classe="B1" ]; then 
+    echo "Bonjour les B1 !"
 else 
-    echo "Entrez !"
+    echo "Je ne connais pas cette classe."
 fi
+

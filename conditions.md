@@ -17,3 +17,13 @@ Pour écrire une condition on utilise la forme suivante :
 > * **else** correspond au SINON
 > * **fi** correspond à la fin de la condition.
 
+## Exemple
+
+Ce script permet d'imprimer une phrase en fonction du contenu de la variable **classe**.
+
+![cond1](./img/cond1.png)
+> 1. J'initialise ma variable **classe** en lui assignant la valeur **B1**
+> 2. SI ma variable **classe** est égale à **B1**; alors...
+> 3. J'imprime la phrase donnée
+> 4. SINON, j'imprime l'autre phrase.
+
