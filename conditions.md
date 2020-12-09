@@ -74,15 +74,28 @@ On peut appliquer des conditions sur les chaînes de caractères, des nombres et
 
 ### Nombres
 
+#### Avec les crochets
+
 | Conditions | Significations |
 | ----- | ----- |
-| ` [  ] ` | *Vérifie si* |
 | ` [ $nb1 -eq $nb2 ] ` | *Vérifie si* les nombres son égaux |
 | ` [ $nb1 -ne $nb2 ] ` | *Vérifie si* les nombres ne sont pas égaux |
 | ` [ $nb1 -lt $nb2 ] ` | *Vérifie si* ` nb1 ` est **inférieur** à ` nb2 `|
 | ` [ $nb1 -le $nb2 ] ` | *Vérifie si* ` nb1 ` est **inférieur ou égal** à ` nb2 `|
 | ` [ $nb1 -gt $nb2 ] ` | *Vérifie si* ` nb1 ` est **supérieur** à ` nb2 `|
 | ` [ $nb1 -ge $nb2 ] ` | *Vérifie si* ` nb1 ` est **supérieur ou égal** à ` nb2 `|
+
+#### Avec la double parenthèse
+
+| Conditions | Significations |
+| ----- | ----- |
+| ` (( nb1 == nb2 )) ` | *Vérifie si* les nombres son égaux |
+| ` (( nb1 != nb2 )) ` | *Vérifie si* les nombres ne sont pas égaux |
+| ` (( nb1 < nb2 )) ` | *Vérifie si* ` nb1 ` est **inférieur** à ` nb2 `|
+| ` (( nb1 <= nb2 )) ` | *Vérifie si* ` nb1 ` est **inférieur ou égal** à ` nb2 `|
+| ` (( nb1 > nb2 )) ` | *Vérifie si* ` nb1 ` est **supérieur** à ` nb2 `|
+| ` (( nb1 >= nb2 )) ` | *Vérifie si* ` nb1 ` est **supérieur ou égal** à ` nb2 `|
+
 
 ### Exemples des conditions
 
