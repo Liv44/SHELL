@@ -23,11 +23,11 @@ Les 3 commandes inscrites dans mon script git sont les suivantes :
 * <strong> git add * </strong>
     * git add permet d'ajouter le changement d'un fichier à notre git
     * l'étoile correspond à l'ensemble des fichiers dans le répertoire où le script est exécuté
-* git commit -m "update"
+* **git commit -m "update"**
     * git commit permet de commiter les modifications, soit de créer une nouvelle version du fichier mis à jour
     * -m permet d'ajouter un message de commit
     * par défaut, et pour gagner du temps, j'ai appelé mon message de commit "update"
-* git push
+* **git push**
     * git push permet de charger le contenu ajouté de notre machine au serveur du GitHub de destination. 
 
 
