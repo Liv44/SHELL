@@ -2,7 +2,7 @@
 
 Grâce à des commandes saisies dans notre Terminal et à l'interprétation qu'en fera le Shell, il est possible de naviguer dans l'arborescence des fichiers, d'en créer, de créer des utilisateurs, gérer les autorisations, lire le contenu d'un fichier, etc. 
 
-Une commande se présente sous cette forme : *nom-de-la-commande* *arguments*
+Une commande se présente sous cette forme : *'nom-de-la-commande'* *'arguments'* *'-argument optionel'*
 Les arguments permettent de spécifier l'action demandée.
 
 Voici donc des *commandes Shell essentielles*.
@@ -115,5 +115,13 @@ La commande **cat** permet d'afficher le contenu d'un fichier.
 >> ![cat-e](./img/cat-e.png)
 >>> En ajoutant l'argument -e, on peut voir les sauts de ligne dans le fichier.
 
+----
+## Les raccourcis clavier du Terminal
+
+### Les flèches haut et bas
+En utilisant les flèches haut et bas du clavier, on peut retrouver les dernières commandes tapées. On peut aussi la modifier en utilisant les flèches gauche et droite pour naviguer dans la ligne de commande.
+
+### La touche TAB
+La touche TAB est utile pour compléter une commande avec le nom d'un fichier existant. 
 
 
