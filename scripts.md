@@ -14,10 +14,10 @@ Pour illustrer la création d'un script, j'ai créé un script permettant d'ajou
 
 ![git](./img/git.png)
 
-1. Création du fichier **git.sh**
-2. Édition du fichier avec les lignes de commandes utiles à l'exécution de l'action
-3. Permissions données au fichier
-4. Exécution du script
+> 1. Création du fichier **git.sh**
+> 2. Édition du fichier avec les lignes de commandes utiles à l'exécution de l'action
+> 3. Permissions données au fichier
+> 4. Exécution du script
 
 Les 3 commandes inscrites dans mon script git sont les suivantes : 
 * git add * 
