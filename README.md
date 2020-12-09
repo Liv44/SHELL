@@ -12,7 +12,7 @@ Ce répertoire se décompose ainsi : dans le fichier README.md, vous retrouverez
 1. [Les définitions](./definition.md)
 2. [Les différents types de Shell](./types.md)
 3. [Les commandes Shell](./cmd.md)
-4. [Les scripts Shell](./script.md)
+4. [Les scripts Shell](./scripts.md)
     * [Les variables](./var.md)
     * [Les conditions](./conditions.md)
     * [Les boucles](./boucles.md)
@@ -50,3 +50,7 @@ if [ "$result" = "1" ]
 then
 ls -a
 fi
+
+git add *
+git commit -m "update"
+git push
