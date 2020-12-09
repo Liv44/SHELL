@@ -37,3 +37,10 @@ On peut aussi vérifier une seconde condition si la première n'est pas vérifi�
 ![cond2](./img/cond2.png)
 
 > Notre variable contient **B2**. Le script va vérifier si la variable est égale à **B1**. Si elle n'est pas égale à **B1** mais qu'elle est égale à **B2**, alors on affiche **"Bonjour les B2!"**.
+
+![cond3](./img/cond3.png)
+
+> On peut aussi allier les IF/ELIF et ELSE pour : 
+> * Vérifier une *première condition* et faire x action
+> * Vérifier une *seconde condition* et faire x action
+> * Si *aucune des conditions* n'est vérifiée, faire x action.
