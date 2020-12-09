@@ -6,10 +6,10 @@ On utilise les conditions pour faire une action SI une opération est vérifiée
 
 Pour écrire une condition on utilise la forme suivante : 
 
-    if [ *test à vérifier* ]; then
-        *action à effectuer*
+    if [ test à vérifier ]; then
+        <em> action àeffectuer </em>
     fi
-    
+
 > **if** correspond au SI
 > **then** correspond au ALORS
 > **fi** correspond à la fin de la condition.
