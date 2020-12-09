@@ -48,3 +48,13 @@ On peut aussi vérifier une seconde condition si la première n'est pas vérifi�
 ## Les conditions à vérifier
 
 On peut appliquer des conditions sur les chaînes de caractères, des nombres et des fichiers. Pour chacun de ces 3 contenus, on utilisera des paramètres spécifiques. Voici la liste : 
+
+### Chaînes de caractères
+
+| Conditions | Significations |
+| ----- | ----- |
+| [ $str1 == $str2 ] | SI str1 est égale à str2. (Possible avec un seul =) |
+| [ $str1 != $str2 ] | SI str1 n'est pas égale à str2 |
+| [ -z $str ] | SI str est vide |
+| [ -n $str ] | SI str n'est pas vide |
+
