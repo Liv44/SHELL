@@ -92,7 +92,8 @@ On peut appliquer des conditions sur les chaînes de caractères, des nombres et
 > 2. Condition sur un nombre
 > 3. Condition sur un fichier
 
-
+*[Retour au sommaire](./README.md)* | 
+*[Sources](./sources.md)* | *[Chapitre suivant (Les boucles](./boucles.md)*
 
 
 

@@ -24,5 +24,9 @@ Voici les liens des sites utilisés pour réaliser ce travai. Ce fichier est ré
 * [Les variables d'environnement | Wiki Ubuntu-fr](https://doc.ubuntu-fr.org/variables_d_environnement)
 * [Les variables d'environnement | Mon pense-bête (quennec)](https://www.quennec.fr/trucs-astuces/systèmes/gnulinux/programmation-shell-sous-gnulinux/paramétrer-son-environnement-de-travail/les-variables-denvironnement)
 
+### Les conditions
+* [Maitriser les conditions en bash | Buzut](https://buzut.net/maitriser-les-conditions-en-bash/#Les-syntaxes-conditionnelles)
+* [Reprenez le contrôle à l'aide de Linux, les conditions | OpenClassRooms](https://openclassrooms.com/fr/courses/43538-reprenez-le-controle-a-laide-de-linux/43394-les-conditions)
+
 * http://www.linux-france.org/~nquiniou/module_ui/prog_shell/ch13s02.html#id2575202
 
