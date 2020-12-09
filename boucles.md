@@ -5,8 +5,7 @@ Boucler permet de faire une action jusqu'à ce que notre condition soit atteinte
 ## ` while `
 
 ` while `correspond à **tant que**. Tant que "le gâteau n'est pas cuit", faire "cuire encore 5 minutes". La forme est similaire aux conditions ` if ` :
+
     while [ condition ]; do
         action
     done
-
-Pour telles variables, faire et recommencer.
