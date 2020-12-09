@@ -20,7 +20,7 @@ Pour illustrer la création d'un script, j'ai créé un script permettant d'ajou
 > 4. Exécution du script
 
 Les 3 commandes inscrites dans mon script git sont les suivantes : 
-* **git add *** 
+* <strong> git add * </strong>
     * git add permet d'ajouter le changement d'un fichier à notre git
     * l'étoile correspond à l'ensemble des fichiers dans le répertoire où le script est exécuté
 * git commit -m "update"
