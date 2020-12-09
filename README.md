@@ -16,7 +16,6 @@ Ce répertoire se décompose ainsi : dans le fichier README.md, vous retrouverez
     * [Les variables](./var.md)
     * [Les conditions](./conditions.md)
     * [Les boucles](./boucles.md)
-    * [Premier script : git.sh](./git.sh)
 4. [Third Example](./example.md)
 
 ## [Sources](./sources.md)
@@ -50,7 +49,3 @@ if [ "$result" = "1" ]
 then
 ls -a
 fi
-
-git add *
-git commit -m "update"
-git push
