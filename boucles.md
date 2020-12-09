@@ -11,4 +11,6 @@ Boucler permet de faire une action jusqu'à ce que notre condition soit atteinte
     done
 > * ` while ` correspond au TANT QUE
 > * ` do ` correspond au ALORS FAIT
-> * ` done  ` correspond à la fin de la condition.
+> * ` done ` correspond à la fin de la condition.
+
+**ATTENTION** : Nous avons vu dans les conditions ` if ` que la condition à vérifier devait se trouver entre crochets, avec des espaces entre les opérateurs et les variables. Pour faciliter la chose et permettre de faire des calculs dans nos conditions et nos actions, on peut utiliser les doubles parenthèses `(( condition/calcul ))`
