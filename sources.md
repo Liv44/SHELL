@@ -28,5 +28,8 @@ Voici les liens des sites utilisés pour réaliser ce travai. Ce fichier est ré
 * [Maitriser les conditions en bash | Buzut](https://buzut.net/maitriser-les-conditions-en-bash/#Les-syntaxes-conditionnelles)
 * [Reprenez le contrôle à l'aide de Linux, les conditions | OpenClassRooms](https://openclassrooms.com/fr/courses/43538-reprenez-le-controle-a-laide-de-linux/43394-les-conditions)
 
+### Les boucles
+* [Guide bash boucle for avec exemples | Hostinger tutoriels](https://www.hostinger.fr/tutoriels/guide-bash-boucle-for-avec-exemples/)
+
 * http://www.linux-france.org/~nquiniou/module_ui/prog_shell/ch13s02.html#id2575202
 
