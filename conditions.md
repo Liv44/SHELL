@@ -7,7 +7,7 @@ On utilise les conditions pour faire une action SI une opération est vérifiée
 Pour écrire une condition on utilise la forme suivante : 
 
     if [ test à vérifier ]; then
-        <em> action àeffectuer </em>
+        action à effectuer 
     fi
 
 > **if** correspond au SI
