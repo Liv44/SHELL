@@ -53,8 +53,24 @@ On peut appliquer des conditions sur les chaînes de caractères, des nombres et
 
 | Conditions | Significations |
 | ----- | ----- |
-| ` [ $str1 == $str2 ] ` | SI str1 est égale à str2. (Possible avec un seul =) |
-| ` [ $str1 != $str2 ] ` | SI str1 n'est pas égale à str2 |
-| ` [ -z $str ] ` | SI str est vide |
-| ` [ -n $str ] ` | SI str n'est pas vide |
+| ` [ $str1 == $str2 ] ` | *Vérifie si* str1 est égale à str2. (Possible avec un seul =) |
+| ` [ $str1 != $str2 ] ` | *Vérifie si* str1 n'est pas égale à str2 |
+| ` [ -z $str ] ` | *Vérifie si* str est vide |
+| ` [ -n $str ] ` | *Vérifie si* str n'est pas vide |
+
+## Fichiers
+
+| ` [  ] ` | *Vérifie si* |
+| ` [ -a fichier ] ` | *Vérifie si* ce fichier existe |
+| ` [ -d dossier ] ` | *Vérifie si* ce dossier existe |
+| ` [ -L fichier ] ` | *Vérifie si* ce fichier est un lien symbolique |
+| ` [ -r fichier ] ` | *Vérifie si* ce fichier est lisible |
+| ` [ -w fichier ] ` | *Vérifie si* ce fichier est modifiable |
+| ` [ -x fichier ] ` | *Vérifie si* ce fichier est exécutable |
+| ` [ fichier1 -nt fichier2 ] ` | *Vérifie si* le fichier 1 est plus récent que le fichier 2 (**n**ether**t**han) |
+| ` [ fichier1 -ot fichier2 ] ` | *Vérifie si* le fichier 1 est plus vieux que le fichier 2 (**o**lder**t**han) |
+| ` [ -s fichier ] ` | *Vérifie si* ce fichier existe et que sa taille est supérieure à zéro |
+
+
+
 
