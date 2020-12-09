@@ -1,5 +1,4 @@
-for var in 1 2 3 4 5; do
-    ((var=var+1))
+for (( var=5; var>=0; var--)); do
     echo $var
 done
 

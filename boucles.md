@@ -41,3 +41,9 @@ Boucler permet de faire une action jusqu'à ce que notre condition soit atteinte
 > 2. Comprise dans la liste suivante
 > 3. Alors on affiche var
 >> Notre algorithme fait donc ceci : pour la variable var comprise dans la liste 1 2 3 4 5, afficher var. On parcourt toute la liste et on affiche un à un chaque valeur donnée.
+
+On peut aussi incrémenter une variable grâce à la boucle for pour boucler sur un nombre précis.
+
+![for3](./img/for3.png) ![for4](./img/for4.png)
+> L'incrémentation permet de donner une valeur à une variable, la faire varier pour qu'elle atteigne le nombre demandé. Tant qu'elle n'a pas atteint le nomre demandé, on fait l'action. 
+>> Ici, on incrémente la variable à 5, tant qu'elle n'est pas égale à 0, on lui enlève 1, à chaque fois qu'on lui enlève un, on affiche le contenu de la variable.
