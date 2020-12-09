@@ -53,16 +53,15 @@ On peut appliquer des conditions sur les chaînes de caractères, des nombres et
 
 | Conditions | Significations |
 | ----- | ----- |
-| ` [ $str1 == $str2 ] ` | *Vérifie si* str1 est égale à str2. (Possible avec un seul =) |
-| ` [ $str1 != $str2 ] ` | *Vérifie si* str1 n'est pas égale à str2 |
-| ` [ -z $str ] ` | *Vérifie si* str est vide |
-| ` [ -n $str ] ` | *Vérifie si* str n'est pas vide |
+| ` [ $str1 == $str2 ] ` | *Vérifie si* str1 est **égale** à str2. (Possible avec un seul =) |
+| ` [ $str1 != $str2 ] ` | *Vérifie si* str1 n'est pas **égale** à str2 |
+| ` [ -z $str ] ` | *Vérifie si* str est **vide** |
+| ` [ -n $str ] ` | *Vérifie si* str n'est **pas vide** |
 
-## Fichiers
+### Fichiers
 
 | Conditions | Significations |
 | ----- | ----- |
-| ` [  ] ` | *Vérifie si* |
 | ` [ -a fichier ] ` | *Vérifie si* ce fichier **existe** |
 | ` [ -d dossier ] ` | *Vérifie si* ce dossier **existe** |
 | ` [ -L fichier ] ` | *Vérifie si* ce fichier est un **lien symbolique** |
@@ -72,6 +71,22 @@ On peut appliquer des conditions sur les chaînes de caractères, des nombres et
 | ` [ fichier1 -nt fichier2 ] ` | *Vérifie si* le fichier 1 est plus **récent** que le fichier 2 (**n**ether**t**han) |
 | ` [ fichier1 -ot fichier2 ] ` | *Vérifie si* le fichier 1 est plus **vieux** que le fichier 2 (**o**lder**t**han) |
 | ` [ -s fichier ] ` | *Vérifie si* la taille du fichier est **supérieure à zéro** |
+
+### Nombres
+
+| Conditions | Significations |
+| ----- | ----- |
+| ` [  ] ` | *Vérifie si* |
+| ` [ $nb1 -eq $nb2 ] ` | *Vérifie si* les nombres son égaux |
+| ` [ $nb1 -ne $nb2 ] ` | *Vérifie si* les nombres ne sont pas égaux |
+| ` [ $nb1 -lt $nb2 ] ` | *Vérifie si* ` nb1 ` est **inférieur** à ` nb2 `|
+| ` [ $nb1 -le $nb2 ] ` | *Vérifie si* ` nb1 ` est **inférieur ou égal** à ` nb2 `|
+| ` [ $nb1 -gt $nb2 ] ` | *Vérifie si* ` nb1 ` est **supérieur** à ` nb2 `|
+| ` [ $nb1 -ge $nb2 ] ` | *Vérifie si* ` nb1 ` est **supérieur ou égal** à ` nb2 `|
+
+
+
+
 
 
 
