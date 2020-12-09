@@ -1,11 +1,6 @@
-nbr=0
-
-while (( nbr!=10)) ; do
-
-    ((nbr=nbr+1))
-    echo $nbr
+for var in 1 2 3 4 5; do
+    echo $var
 done
-
 
 
 
