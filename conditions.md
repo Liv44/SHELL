@@ -11,7 +11,9 @@ Pour écrire une condition on utilise la forme suivante :
     fi
 
 > **if** correspond au SI
+
 > **then** correspond au ALORS
+
 > **fi** correspond à la fin de la condition.
 
 var1="Hello World!"
