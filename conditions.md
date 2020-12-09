@@ -47,7 +47,7 @@ On peut aussi vérifier une seconde condition si la première n'est pas vérifi�
 
 ## Les conditions à vérifier
 
-On peut appliquer des conditions sur les chaînes de caractères, des nombres et des fichiers. Pour chacun de ces 3 contenus, on utilisera des paramètres spécifiques. Voici la liste : 
+On peut appliquer des conditions sur les chaînes de caractères, des nombres et des fichiers. Pour chacun de ces 3 contenus, on utilisera des opérateurs spécifiques. **Attention** : ces opérateurs se trouvent principalement entre crochets et doivent avoir des espaces avant et après pour être compris par le système. Pour les nombres, on peut utiliser les **crochets** mais aussi les **doubles parenthèses**, qui prennent en compte les opérateurs simples tels que `==` ou `!=`.
 
 ### Chaînes de caractères
 

@@ -1,5 +1,5 @@
 nbr=0
-while [ $nbr -ne 18 ] ; do
+while (( nbr!=10)) ; do
 
     ((nbr=nbr+1))
     echo $nbr
