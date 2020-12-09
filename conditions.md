@@ -60,6 +60,8 @@ On peut appliquer des conditions sur les chaînes de caractères, des nombres et
 
 ## Fichiers
 
+| Conditions | Significations |
+| ----- | ----- |
 | ` [  ] ` | *Vérifie si* |
 | ` [ -a fichier ] ` | *Vérifie si* ce fichier existe |
 | ` [ -d dossier ] ` | *Vérifie si* ce dossier existe |
