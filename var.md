@@ -38,5 +38,13 @@ On utilise **$** pour sélectionner les variables
 
 > Avec la commande **printenv** j'ai affiché la liste des variables d'environnement actives.
 
+## Utilisation des variables dans un script Shell
+
+![script-var](./img/script-var.png)
+
+> 1. Je crée la variable **var1** et lui donne une valeur **"Hello World !"**. Cette variable contient donc la valeur attribuée.
+> 2. J'utilise la commande **echo** pour imprimer le contenu de ma variable **var1**. Pour cela, je mets le signe **$** devant la variable pour l'appeler.
+> 3. Lors de l'exécution du script, la variable est créée et le script renvoie bien le contenu de cette dernière.
+
 *[Retour au sommaire](./README.md)* | 
 *[Sources](./sources.md)* | *[Chapitre suivant (Les conditions)](./conditions.md)*
