@@ -14,6 +14,7 @@ Voici donc des *commandes Shell essentielles*.
 
 ----------
 <div id='man'/>
+
 ## La commande **man**
 
 La commande man est un manuel intégré dans le système qui permet d'afficher toutes les informations d'une commande. On retrouve différentes rubriques telles que le nom, la description ou l'environnement utilisé. C'est dans cette page qu'on peut voir l'utilité de certains arguments.
