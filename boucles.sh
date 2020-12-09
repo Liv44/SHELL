@@ -1,4 +1,5 @@
 nbr=0
+
 while (( nbr!=10)) ; do
 
     ((nbr=nbr+1))
@@ -8,16 +9,16 @@ done
 
 
 
-j=2
+#j=2
 
-for (( i=1; i<=5; i++ )); do
-    echo boucle for $i
-done
+#for (( i=1; i<=5; i++ )); do
+#    echo boucle for $i
+#done
 
-while [ $j -lt 5 ]; do
-    j=`expr $j + 1`
-    echo $j
-done
+#while [ $j -lt 5 ]; do
+#    j=`expr $j + 1`
+#    echo $j
+#done
 
 #while [ -z $reponse ] || [ $reponse != 'Coucou' ]; do
  #   read -p "dites Coucou : " reponse
