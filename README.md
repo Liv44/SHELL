@@ -2,23 +2,20 @@
 
 EXPLIQUER LE TRAVAIL ET LA COMPOSITION DU GIT
 
-J'ai décidé de travailler sur le sujet du Shell car je travaille avec un Mac. Mac ayant un noyau Unix, il comprends déjà le langage Shell, contrairement à Windows qui doit utiliser le PowerShell. 
+J'ai décidé de travailler sur le sujet du Shell car je travaille avec un MacBook Air. Mac ayant un noyau Unix, il comprends déjà le langage Shell, contrairement à Windows qui doit installer un PowerShell. 
 
-Unix fait partie de Linux, le noyaux est libre etc.
-
-Ce répertoire se décompose ainsi : dans le fichier README.md, vous retrouverez le sommaire, la présentation du travail et un lien vers les sources utilisées. 
+Ce répeCe répertoire se décompose ainsi : dans le fichier README.md, vous retrouverez le sommaire, la présentation du travail et un lien vers les sources utilisées. 
 
 ## Sommaire
-1. [Les définitions](./definition.md)
-2. [Les différents types de Shell](./types.md)
-3. [Les commandes Shell](./cmd.md)
-4. [Les scripts Shell](./scripts.md)
-    * [Les variables](./var.md)
-    * [Les conditions](./conditions.md)
-    * [Les boucles](./boucles.md)
-4. [Third Example](./example.md)
+1. [Les définitions](./Cours/definition.md)
+2. [Les différents types de Shell](./Cours/types.md)
+3. [Les commandes Shell](./Cours/cmd.md)
+4. [Les scripts Shell](./Cours/scripts.md)
+    * [Les variables](./Cours/var.md)
+    * [Les conditions](./Cours/conditions.md)
+    * [Les boucles](./Cours/boucles.md)
 
-## [Sources](./sources.md)
+## [Sources](./Cours/sources.md)
 
 
 
