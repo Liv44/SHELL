@@ -4,6 +4,13 @@ EXPLIQUER LE TRAVAIL ET LA COMPOSITION DU GIT
 
 J'ai décidé de travailler sur le sujet du Shell car je travaille avec un MacBook Air. Mac ayant un noyau Unix, il comprends déjà le langage Shell, contrairement à Windows qui doit installer un PowerShell. 
 
+Ce répertoire se décompose ainsi : 
+* le **README.md** avec le sommaire du cours et un lien vers les sources
+* un dossier **Cours** avec les fichiers .md comprennant les différents chapitres
+* un dossier **img** comprennant les images utilisées pour illustrer le cours
+* un dossier **scripts** où l'on trouve les scripts servant d'exemples pour le cours
+* un dossier **TP** avec les différents TP que j'ai pu travailler.
+
 Ce répeCe répertoire se décompose ainsi : dans le fichier README.md, vous retrouverez le sommaire, la présentation du travail et un lien vers les sources utilisées. 
 
 ## Sommaire
@@ -17,20 +24,6 @@ Ce répeCe répertoire se décompose ainsi : dans le fichier README.md, vous ret
 
 ## [Sources](./Cours/sources.md)
 
-
-
-faire des listes sur ce que je veux parler.
-boucles pour / tant que 
-
-Voici un code en C :
-
-    int main()
-    {
-        printf("Hello world!\n");
-        return 0;
-    }
-
-Ceci est une `Fonction`.
 
 
 echo "Que voulez-vous faire ?
