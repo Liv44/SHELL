@@ -11,8 +11,6 @@ Ce répertoire se décompose ainsi :
 * un dossier **scripts** où l'on trouve les scripts servant d'exemples pour le cours
 * un dossier **TP** avec les différents TP que j'ai pu travailler.
 
-Ce répeCe répertoire se décompose ainsi : dans le fichier README.md, vous retrouverez le sommaire, la présentation du travail et un lien vers les sources utilisées. 
-
 ## Sommaire
 1. [Les définitions](./Cours/definition.md)
 2. [Les différents types de Shell](./Cours/types.md)
@@ -21,6 +19,9 @@ Ce répeCe répertoire se décompose ainsi : dans le fichier README.md, vous ret
     * [Les variables](./Cours/var.md)
     * [Les conditions](./Cours/conditions.md)
     * [Les boucles](./Cours/boucles.md)
+5. [Les TP](./TP)
+    * [TP 1](./TP/TP1.md)
+    * [TP 2](./TP/TP2.md)
 
 ## [Sources](./Cours/sources.md)
 
