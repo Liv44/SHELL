@@ -28,14 +28,14 @@ La commande man est un manuel intégré dans le système qui permet d'afficher t
 
 ## Naviguer entre les dossiers
 
-* ### pwd
+### `pwd`
 La commande **pwd** permet d'afficher le répertoire de travail dans lequel on se trouve et l'arborescence de ce dernier.
 
 ![pwd](../img/pwd.png)
 
 > Ici, on voit que mon dossier img se trouve dans le dossier SHELL, lui-même se trouvant dans mon dossier utilisateur oliviamoreau, cet utilisateur étant dans le dossier Users.
 
-* ### cd 
+### `cd `
 
 La commande **cd** permet de changer de répertoire de travail. Il suffit d'insérer en argument le nom du répertoire dans lequel on veut aller. 
 
@@ -51,7 +51,7 @@ La commande **cd** sans arguments derrière permet de revenir au répertoire uti
 > Sur cet exemple, j'accède à mon répertoire **img** grâce à la commande **cd img**. Je reviens ensuite au répertoire contenant le répertoire actif grâce à **cd ..**. Enfin, en utilisant simplement **cd** dans mon répertoire img je reviens dans mon répertoire utilisateur représenté par le tilde.
 
 
-* ### ls
+### `ls`
 
 La commande **ls** permet de voir le contenu du répertoire dans lequel nous nous trouvons. Cette commande peut être spécifiée avec des flags qui permettront de cibler ce que l'on veut afficher.
 
@@ -71,14 +71,14 @@ L'argument **-l** sur la commande **ls** permet d'afficher des informations pré
 
 ## Créer, modifier, déplacer des fichiers/dossiers
 
-* ### touch
+### `touch`
  La commande **touch** permet de créer un fichier.
 
 
-* ### mkdir
+### `mkdir`
 La commande **mkdir** permet de créer un dossier/répertoire.
 
-* ### mv
+### `mv`
 La commande **mv** permet de déplacer un fichier/répertoire. Pour cela il faut mettre en premier argument l'élément à déplacer et en second le dossier où l'on veut le déplacer. Exemple : 
 
 ![mvgit](../img/mvgit.png)
@@ -94,7 +94,7 @@ La commande mv permet aussi de modifier le nom d'un fichier. Pour cela, on met e
 > Grâce à la commande mv, on a modifié le fichier **git.sh** en **coucou.sh**.
 
 
-* ### cp
+### `cp`
 La commande **cp** permet de copier et coller un fichier ou un dossier.
 
 ![cp](../img/cp.png)
@@ -102,7 +102,7 @@ La commande **cp** permet de copier et coller un fichier ou un dossier.
 >>![cp](../img/cp2.png)
 >>> Le dossier OS ne peut pas être copié dans le dossier OS_2 sans utiliser l'argument **-r** qui permet la récursivité.
 
-* ### rm
+### `rm`
 La commande **rm** permet de supprimer un fichier. Il suffit de mettre en argument le nom du fichier à supprimer.
 
 ![rm](../img/rm.png)
@@ -115,7 +115,7 @@ Pour supprimer un dossier, on utilise l'argument -d avant le nom du dossier.
 
 > Le dossier test n'est pas supprimable si l'on n'utilise pas l'argument **-d**. Le Terminal affiche "rm : test : is a directory." Avec l'argument **-d**, le dossier est bien supprimé.
 
-* ### cat
+### `cat`
 La commande **cat** permet d'afficher le contenu d'un fichier.
 
 ![cat](../img/cat.png)
@@ -131,7 +131,7 @@ La commande **cat** permet d'afficher le contenu d'un fichier.
 ### Les flèches haut et bas
 En utilisant les flèches haut et bas du clavier, on peut retrouver les dernières commandes tapées. On peut aussi la modifier en utilisant les flèches gauche et droite pour naviguer dans la ligne de commande.
 
-### La touche TAB
+### La touche `TAB`
 La touche TAB est utile pour compléter une commande avec le nom d'un fichier existant. 
 
 *[Retour au sommaire](../README.md)* | 
