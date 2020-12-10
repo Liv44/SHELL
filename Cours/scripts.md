@@ -30,5 +30,6 @@ Les 3 commandes inscrites dans mon script git sont les suivantes :
 * **git push**
     * *git push* permet de charger le contenu ajouté de notre machine au serveur du GitHub de destination. 
 
-
+*[Retour au sommaire](../README.md)* | 
+*[Sources](./sources.md)* | *[Chapitre suivant (Les variables)](./var.md)*
 

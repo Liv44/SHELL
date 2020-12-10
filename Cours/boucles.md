@@ -47,3 +47,6 @@ On peut aussi incrémenter une variable grâce à la boucle for pour boucler sur
 ![for3](./img/for3.png) ![for4](./img/for4.png)
 > L'incrémentation permet de donner une valeur à une variable, la faire varier pour qu'elle atteigne le nombre demandé. Tant qu'elle n'a pas atteint le nomre demandé, on fait l'action. 
 >> Ici, on incrémente la variable à 5, tant qu'elle n'est pas égale à 0, on lui enlève 1, à chaque fois qu'on lui enlève un, on affiche le contenu de la variable.
+
+*[Retour au sommaire](../README.md)* | 
+*[Sources](./sources.md)* | *[Chapitre suivant ()](./conditions.md)*
