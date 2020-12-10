@@ -49,4 +49,4 @@ On peut aussi incrémenter une variable grâce à la boucle for pour boucler sur
 >> Ici, on incrémente la variable à 5, tant qu'elle n'est pas égale à 0, on lui enlève 1, à chaque fois qu'on lui enlève un, on affiche le contenu de la variable.
 
 *[Retour au sommaire](../README.md)* | 
-*[Sources](./sources.md)* | *[Chapitre suivant ()](./conditions.md)*
+*[Sources](./sources.md)* | *[Chapitre suivant (TP n°1)](./TP/TP1.md)*
