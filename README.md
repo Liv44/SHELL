@@ -27,4 +27,6 @@ Ce répertoire se décompose ainsi :
 
 ## [Sources](./Cours/sources.md)
 
-## 
+## Avis sur le projet
+
+Malgré une difficulté à me mettre au travail dû au confinement et au manque de motivation que cela a entraîné, j'ai trouvé ce projet intéressant à faire.

@@ -1,5 +1,7 @@
 # Les Types de Shell
 
+Le Shell existe sous différentes versions qui ont chacune des spécificités. 
+
 - Sh : Bourne Shell 
     - c'est le shell accessible sur toute plateforme UNIX
 - csh : C Shell

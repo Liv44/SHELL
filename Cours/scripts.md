@@ -1,6 +1,6 @@
 # Les Scripts SHELL
 
-Shell est un interpréteur de commandes mais a aussi son propre langage de programmation. On peut donc coder en Shell un programme qui permet d'exécuter des actions sur le système. Pour cela, il suffit de : 
+Shell est un interpréteur de commandes mais a aussi son propre langage de programmation. On peut donc coder en Shell un programme qui permet d'exécuter des actions sur le système, soit d'automatiser ces actions sans avoir à les taper une à une. Pour cela, il suffit de : 
 
 * Créer un fichier avec l'extension .sh
 * Lui donner les autorisations d'exécution avec *chmod 744 fichier.sh*
