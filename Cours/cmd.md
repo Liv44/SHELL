@@ -15,9 +15,9 @@ Voici donc des *commandes Shell essentielles*.
 ----------
 <div id='man'/>
 
-## La commande **man**
+## La commande `man`
 
-La commande man est un manuel intégré dans le système qui permet d'afficher toutes les informations d'une commande. On retrouve différentes rubriques telles que le nom, la description ou l'environnement utilisé. C'est dans cette page qu'on peut voir l'utilité de certains arguments.
+La commande `man` est un manuel intégré dans le système qui permet d'afficher toutes les informations d'une commande. On retrouve différentes rubriques telles que le nom, la description ou l'environnement utilisé. C'est dans cette page qu'on peut voir l'utilité de certains arguments.
 
 ![man](../img/man.png)
 ![man2](../img/man2.png)
@@ -29,7 +29,7 @@ La commande man est un manuel intégré dans le système qui permet d'afficher t
 ## Naviguer entre les dossiers
 
 ### `pwd`
-La commande **pwd** permet d'afficher le répertoire de travail dans lequel on se trouve et l'arborescence de ce dernier.
+La commande `pwd` permet d'afficher le répertoire de travail dans lequel on se trouve et l'arborescence de ce dernier.
 
 ![pwd](../img/pwd.png)
 
@@ -37,29 +37,29 @@ La commande **pwd** permet d'afficher le répertoire de travail dans lequel on s
 
 ### `cd `
 
-La commande **cd** permet de changer de répertoire de travail. Il suffit d'insérer en argument le nom du répertoire dans lequel on veut aller. 
+La commande `cd` permet de changer de répertoire de travail. Il suffit d'insérer en argument le nom du répertoire dans lequel on veut aller. 
 
 ![cd](../img/cd.png)
 
 > De mon répertoire principal **oliviamoreau**, j'accède à mon répertoire nommé **SHELL**. On le voit car le tilde est remplacée par le nom de mon répertoire. 
 >> Le **tilde** signifie que nous nous trouvons dans le répertoire utilisateur. 
-La commande **cd** suivie de 2 points **..** permet de revenir dans le répertoire précédant sans taper le nom.
-La commande **cd** sans arguments derrière permet de revenir au répertoire utilisateur.
+La commande `cd` suivie de 2 points `..` permet de revenir dans le répertoire précédant sans taper le nom.
+La commande `cd` sans arguments derrière permet de revenir au répertoire utilisateur.
 
 ![cd2](../img/cd2.png)
 
-> Sur cet exemple, j'accède à mon répertoire **img** grâce à la commande **cd img**. Je reviens ensuite au répertoire contenant le répertoire actif grâce à **cd ..**. Enfin, en utilisant simplement **cd** dans mon répertoire img je reviens dans mon répertoire utilisateur représenté par le tilde.
+> Sur cet exemple, j'accède à mon répertoire **img** grâce à la commande `cd img`. Je reviens ensuite au répertoire contenant le répertoire actif grâce à `cd ..`. Enfin, en utilisant simplement `cd` dans mon répertoire **img** je reviens dans mon répertoire utilisateur représenté par le tilde.
 
 
 ### `ls`
 
-La commande **ls** permet de voir le contenu du répertoire dans lequel nous nous trouvons. Cette commande peut être spécifiée avec des flags qui permettront de cibler ce que l'on veut afficher.
+La commande `ls` permet de voir le contenu du répertoire dans lequel nous nous trouvons. Cette commande peut être spécifiée avec des flags qui permettront de cibler ce que l'on veut afficher.
 
 ![ls](../img/ls.png)
 
-> L'utilisation de la commande **ls** sur mon répertoire SHELL montre bien le contenu de ce dernier.
-L'argument **-a** sur la commande **ls** permet d'afficher les fichiers cachés du répertoire.
-L'argument **-l** sur la commande **ls** permet d'afficher des informations précises sur le contenu du répertoire comme les permissions, l'utilisateur propriétaire, le groupe de cet utilisateur, la taille du fichier, la date et l'heure de la dernière modification et le nom du fichier.
+> L'utilisation de la commande `ls` sur mon répertoire SHELL montre bien le contenu de ce dernier.
+L'argument `-a` sur la commande `ls` permet d'afficher les fichiers cachés du répertoire.
+L'argument `-l` sur la commande `ls` permet d'afficher des informations précises sur le contenu du répertoire comme les permissions, l'utilisateur propriétaire, le groupe de cet utilisateur, la taille du fichier, la date et l'heure de la dernière modification et le nom du fichier.
 
 ![ls3](../img/ls3.png)
 
@@ -72,20 +72,20 @@ L'argument **-l** sur la commande **ls** permet d'afficher des informations pré
 ## Créer, modifier, déplacer des fichiers/dossiers
 
 ### `touch`
- La commande **touch** permet de créer un fichier.
+ La commande `touch` permet de créer un fichier.
 
 
 ### `mkdir`
-La commande **mkdir** permet de créer un dossier/répertoire.
+La commande `mkdir` permet de créer un dossier/répertoire.
 
 ### `mv`
-La commande **mv** permet de déplacer un fichier/répertoire. Pour cela il faut mettre en premier argument l'élément à déplacer et en second le dossier où l'on veut le déplacer. Exemple : 
+La commande `mv` permet de déplacer un fichier/répertoire. Pour cela il faut mettre en premier argument l'élément à déplacer et en second le dossier où l'on veut le déplacer. Exemple : 
 
 ![mvgit](../img/mvgit.png)
 
 > Cet exemple nous montre le déplacement du fichier **git.sh** initalement contenu dans le dossier **SHELL** mais qui se retrouve dans le dossier **img**.
 >>![mvgit2](../img/mvgit2.png) 
->>> Si l'on veut le remettre dans son dossier initial il suffit de revenir dans le répertoire initial et d'insérer un *.* simple en second argument. Cela signifie que l'on déplace le fichier dans le répertoire actif.
+>>> Si l'on veut le remettre dans son dossier initial il suffit de revenir dans le répertoire initial et d'insérer un `.` simple en second argument. Cela signifie que l'on déplace le fichier dans le répertoire actif.
 
 La commande mv permet aussi de modifier le nom d'un fichier. Pour cela, on met en premier argument le nom de l'élément à modifier et en second argument le nom que l'on veut qu'il prenne. 
 
@@ -95,15 +95,15 @@ La commande mv permet aussi de modifier le nom d'un fichier. Pour cela, on met e
 
 
 ### `cp`
-La commande **cp** permet de copier et coller un fichier ou un dossier.
+La commande `cp` permet de copier et coller un fichier ou un dossier.
 
 ![cp](../img/cp.png)
 > Les fichiers Linux Mac et Windows ont bien été collés dans le dossier **OS** tout en restant dans le dossier **test**.
 >>![cp](../img/cp2.png)
->>> Le dossier OS ne peut pas être copié dans le dossier OS_2 sans utiliser l'argument **-r** qui permet la récursivité.
+>>> Le dossier OS ne peut pas être copié dans le dossier OS_2 sans utiliser l'argument `-r` qui permet la récursivité.
 
 ### `rm`
-La commande **rm** permet de supprimer un fichier. Il suffit de mettre en argument le nom du fichier à supprimer.
+La commande `rm` permet de supprimer un fichier. Il suffit de mettre en argument le nom du fichier à supprimer.
 
 ![rm](../img/rm.png)
 
@@ -113,15 +113,15 @@ Pour supprimer un dossier, on utilise l'argument -d avant le nom du dossier.
 
 ![rm2](../img/rm2.png)
 
-> Le dossier test n'est pas supprimable si l'on n'utilise pas l'argument **-d**. Le Terminal affiche "rm : test : is a directory." Avec l'argument **-d**, le dossier est bien supprimé.
+> Le dossier test n'est pas supprimable si l'on n'utilise pas l'argument `-d`. Le Terminal affiche "rm : test : is a directory." Avec l'argument `-d`, le dossier est bien supprimé.
 
 ### `cat`
-La commande **cat** permet d'afficher le contenu d'un fichier.
+La commande `cat` permet d'afficher le contenu d'un fichier.
 
 ![cat](../img/cat.png)
-> La commande **cat** sur mon fichier git.sh montre bien le contenu de ce dernier.
+> La commande `cat` sur mon fichier git.sh montre bien le contenu de ce dernier.
 >> ![cat-e](../img/cat-e.png)
->>> En ajoutant l'argument -e, on peut voir les sauts de ligne dans le fichier.
+>>> En ajoutant l'argument `-e`, on peut voir les sauts de ligne dans le fichier.
 
 ----
 <div id='raccourcis'/>
@@ -132,7 +132,7 @@ La commande **cat** permet d'afficher le contenu d'un fichier.
 En utilisant les flèches haut et bas du clavier, on peut retrouver les dernières commandes tapées. On peut aussi la modifier en utilisant les flèches gauche et droite pour naviguer dans la ligne de commande.
 
 ### La touche `TAB`
-La touche TAB est utile pour compléter une commande avec le nom d'un fichier existant. 
+La touche `TAB` est utile pour compléter une commande avec le nom d'un fichier existant. 
 
 *[Retour au sommaire](../README.md)* | 
 *[Sources](./sources.md)* | *[Chapitre suivant (Les scripts Shell)](./scripts.md)*
