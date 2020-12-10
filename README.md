@@ -1,8 +1,10 @@
 # LE SHELL
 
-EXPLIQUER LE TRAVAIL ET LA COMPOSITION DU GIT
+## Introduction
 
-J'ai décidé de travailler sur le sujet du Shell car je travaille avec un MacBook Air. Mac ayant un noyau Unix, il comprends déjà le langage Shell, contrairement à Windows qui doit installer un PowerShell. 
+J'ai décidé de travailler sur le Shell car je travaille avec un MacBook Air. Mac ayant un noyau Unix (une version de Linux), il comprends déjà le langage Shell, contrairement à Windows qui doit installer un PowerShell. Nous verrons donc ce qu'est le Shell, les différents types de shell et les commandes importantes puis nous développerons la notion de Script Shell qui permettra d'automatiser des actions. Enfin, nous travaillerons sur des TP pour créer des scripts Shell plus complexes.
+
+Pour ce travail, j'ai utilisé plusieurs sources pour me permettre de bien comprendre les notions et vérifier les informations. J'ai aussi utilisé des exemples pour pouvoir illustrer ces notions. 
 
 Ce répertoire se décompose ainsi : 
 * le **README.md** avec le sommaire du cours et un lien vers les sources
@@ -25,18 +27,4 @@ Ce répertoire se décompose ainsi :
 
 ## [Sources](./Cours/sources.md)
 
-
-
-echo "Que voulez-vous faire ?
-1- Créer un utilisateur
-2- mofidier un utilisateur
-3- supprimer un utilisateur
-4- voir les utilisateurs
-5- faire une recherche"
-
-read result
-
-if [ "$result" = "1" ] 
-then
-ls -a
-fi
+## 
