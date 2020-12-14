@@ -15,7 +15,7 @@ Boucler permet de faire une action jusqu'à ce que notre condition soit atteinte
 
 **ATTENTION** : Comme pour les conditions ` if `, la condition peut se trouver entre crochets mais aussi entre doubles parenthèses `(( condition/calcul ))`. Je privilégie cette synthaxe car plus simple à utiliser pour faire des calculs.
 
-![boucle1](./img/boucle1.png) ![boucle2](./img/boucle2.png)
+![boucle1](../img/boucle1.png) ![boucle2](../img/boucle2.png)
 
 > 1. Initialisation de la variable nbr à 0 
 > 2. TANT QUE nbr n'est pas égal à 10, ALORS
@@ -35,7 +35,7 @@ Boucler permet de faire une action jusqu'à ce que notre condition soit atteinte
 > * ` do ` correspond au ALORS
 > * ` done ` correspond à la fin de la boucle.
 
-![for1](./img/for1.png) ![for2](./img/for2.png)
+![for1](../img/for1.png) ![for2](../img/for2.png)
 
 > 1. POUR la variable var
 > 2. Comprise dans la liste suivante
@@ -44,9 +44,9 @@ Boucler permet de faire une action jusqu'à ce que notre condition soit atteinte
 
 On peut aussi incrémenter une variable grâce à la boucle for pour boucler sur un nombre précis.
 
-![for3](./img/for3.png) ![for4](./img/for4.png)
+![for3](../img/for3.png) ![for4](../img/for4.png)
 > L'incrémentation permet de donner une valeur à une variable, la faire varier pour qu'elle atteigne le nombre demandé. Tant qu'elle n'a pas atteint le nomre demandé, on fait l'action. 
 >> Ici, on incrémente la variable à 5, tant qu'elle n'est pas égale à 0, on lui enlève 1, à chaque fois qu'on lui enlève un, on affiche le contenu de la variable.
 
 *[Retour au sommaire](../README.md)* | 
-*[Sources](./sources.md)* | *[Chapitre suivant (TP n°1)](./TP/TP1.md)*
+*[Sources](./sources.md)* | *[Chapitre suivant (TP n°1)](../TP/TP1.md)*

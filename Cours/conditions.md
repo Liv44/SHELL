@@ -21,7 +21,7 @@ Pour écrire une condition on utilise la forme suivante :
 
 Ce script permet d'imprimer une phrase en fonction du contenu de la variable **classe**.
 
-![cond1](./img/cond1.png)
+![cond1](../img/cond1.png)
 > 1. J'initialise ma variable **classe** en lui assignant la valeur **B1**
 > 2. SI ma variable **classe** est égale à **B1**; alors...
 > 3. J'imprime la phrase donnée
@@ -34,11 +34,11 @@ On peut aussi vérifier une seconde condition si la première n'est pas vérifi�
 
 ### Exemple ELIF
 
-![cond2](./img/cond2.png)
+![cond2](../img/cond2.png)
 
 > Notre variable contient **B2**. Le script va vérifier si la variable est égale à **B1**. Si elle n'est pas égale à **B1** mais qu'elle est égale à **B2**, alors on affiche **"Bonjour les B2!"**.
 
-![cond3](./img/cond3.png)
+![cond3](../img/cond3.png)
 
 > On peut aussi allier les IF/ELIF et ELSE pour : 
 > * Vérifier une *première condition* et faire x action
@@ -99,7 +99,7 @@ On peut appliquer des conditions sur les chaînes de caractères, des nombres et
 
 ### Exemples des conditions
 
-![cond4](./img/cond4.png) ![cond5](./img/cond5.png)
+![cond4](../img/cond4.png) ![cond5](../img/cond5.png)
 
 > 1. Condition sur deux chaînes de caractères 
 > 2. Condition sur un nombre

@@ -30,17 +30,17 @@ On utilise **$** pour sélectionner les variables
 
 ## Exemples
 
-![var](./img/var.png)
+![var](../img/var.png)
 
 > Avec la commande **echo** j'ai demandé au Shell de m'imprimer le nom de l'utilisateur actif. 
 
-![printenv](./img/printenv.png)
+![printenv](../img/printenv.png)
 
 > Avec la commande **printenv** j'ai affiché la liste des variables d'environnement actives.
 
 ## Utilisation des variables dans un script Shell
 
-![script-var](./img/script-var.png)
+![script-var](../img/script-var.png)
 
 > 1. Je crée la variable **var1** et lui donne une valeur **"Hello World !"**. Cette variable contient donc la valeur attribuée.
 > 2. J'utilise la commande **echo** pour imprimer le contenu de ma variable **var1**. Pour cela, je mets le signe **$** devant la variable pour l'appeler.

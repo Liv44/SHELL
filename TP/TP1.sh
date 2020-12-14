@@ -3,7 +3,7 @@ choix="Vous avez choisi de "
 echo $menu
 read action
 
-while [ -z $action ] || ((action>5)); do #|| [ $action -ne "1." ] || [ $action  -ne "2" ] || [ $action -ne "3" ] || [ $action -ne "4" ] || [ $action -ne "5" ] ; do
+while [ -z $action ] || ((action>5)); do
     echo "$menu\nTapez le chiffre correspondant à votre action : \c"
     read action
 done 
@@ -24,13 +24,13 @@ while [ $action != "fin" ]; do
         read password
 
         echo "Patientez..."
-        sudo dscl . -create /Users/$username
-        sudo dscl . -create /Users/$username UserShell /bin/zsh
-        sudo dscl . -create /Users/$username RealName "$realname"
-        sudo dscl . -create /Users/$username UniqueID $ID
-        sudo dscl . -create /Users/$username PrimaryGroupID 1000
-        sudo dscl . -create /Users/$username NFSHomeDirectory /Users/$username
-        sudo dscl . -passwd /Users/$username $password
+        sudo dscl . -create /Users/$username #créer l'utilisateur
+        sudo dscl . -create /Users/$username UserShell /bin/zsh #ajouter dans fichier shell
+        sudo dscl . -create /Users/$username RealName "$realname" #donner un nom complet
+        sudo dscl . -create /Users/$username UniqueID $ID #donner un ID
+        sudo dscl . -create /Users/$username PrimaryGroupID 1000 #donner l'ID d'un groupe
+        sudo dscl . -create /Users/$username NFSHomeDirectory /Users/$username #Créer le répertoire dans Users
+        sudo dscl . -passwd /Users/$username $password #définir le mdp
 
         echo "Votre utilisateur $username a bien été créé. "
 
@@ -38,6 +38,22 @@ while [ $action != "fin" ]; do
     elif ((action==2)); then
         echo "$choix modifier un utilisateur. Quel utilisateur souhaitez-vous modifier ?"
         read user
+
+        echo "Que voulez-vous modifier ?\n 1.Nom\n2.Nom Complet\n3.ID\4.Mot de Passe : \c" 
+        read modif
+        while [ -z $modif ] || ((modif>4)); do
+            echo "Que voulez-vous modifier ?\n 1.Nom\n2.Nom Complet\n3.ID\4.Mot de Passe : \c"
+            read modif
+            echo "Pour quel utilisateur ? : \c"
+            read username
+        done
+        if ((modif==2)); then
+        echo "Quel nom complet voulez-vous donner ? \c"
+        read nomcomplet
+        sudo dscl . -create /Users/$username RealName "$nomcomplet"
+        fi
+
+
     elif ((action==3)); then
         echo "$choix supprimer un utilisateur. Quel utilisateur souhaitez-vous supprimer ?"
         read user
