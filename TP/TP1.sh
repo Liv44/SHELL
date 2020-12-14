@@ -14,23 +14,21 @@ while [ $action != "fin" ]; do
         read username
         echo "Entrez son nom complet : \c"
         read realname
-        echo "Entrez son ID : \c"
-        read ID
-        while (( ID <=501 )); do
-            echo "L'ID de l'utilisateur doit être supérieur à 501. Réessayez : \c"
-            read ID
-        done
         echo "Entrez son mot de passe : \c"
         read password
 
         echo "Patientez..."
-        sudo dscl . -create /Users/$username #créer l'utilisateur
-        sudo dscl . -create /Users/$username UserShell /bin/zsh #ajouter dans fichier shell
-        sudo dscl . -create /Users/$username RealName "$realname" #donner un nom complet
-        sudo dscl . -create /Users/$username UniqueID $ID #donner un ID
-        sudo dscl . -create /Users/$username PrimaryGroupID 1000 #donner l'ID d'un groupe
-        sudo dscl . -create /Users/$username NFSHomeDirectory /Users/$username #Créer le répertoire dans Users
-        sudo dscl . -passwd /Users/$username $password #définir le mdp
+        #sudo dscl . -create /Users/$username #créer l'utilisateur
+        #sudo dscl . -create /Users/$username UserShell /bin/zsh #ajouter dans fichier shell
+        #sudo dscl . -create /Users/$username RealName "$realname" #donner un nom complet
+        #sudo dscl . -create /Users/$username UniqueID $ID #donner un ID
+        #sudo dscl . -create /Users/$username PrimaryGroupID 20 #donner l'ID d'un groupe
+      
+        #sudo dscl . -passwd /Users/$username $password #définir le mdp
+        #Créer le répertoire dans Users
+        sudo sysadminctl -addUser "$username" -fullName "$realname" -password "$password"
+        sudo createhomedir -u $username -c
+        sudo mv /var/$username /Users/$username
 
         echo "Votre utilisateur $username a bien été créé. "
 
@@ -48,9 +46,13 @@ while [ $action != "fin" ]; do
             read username
         done
         if ((modif==2)); then
-        echo "Quel nom complet voulez-vous donner ? \c"
-        read nomcomplet
-        sudo dscl . -create /Users/$username RealName "$nomcomplet"
+            echo "Quel nom complet voulez-vous donner ? \c"
+            read nomcomplet
+            sudo dscl . -create /Users/$username RealName "Nathalie Chastre" "$nomcomplet" 
+        elif ((modif==3)); then
+            echo "Quel ID voulez-vous donner ?"
+            read ID
+            sudo dscl . -create /Users/$username UniqueID 509 $ID
         fi
 
 
@@ -58,10 +60,11 @@ while [ $action != "fin" ]; do
         echo "$choix supprimer un utilisateur. Quel utilisateur souhaitez-vous supprimer ?"
         read user
         sudo dscl . -delete /Users/$user
+        sudo rm -dr /Users/$user
 
     elif ((action==4)); then
         echo "Voici tous les utilisateurs."
-        dscl . -list /Users | grep -v '_' | grep -v 'nobody' | grep -v 'root' | grep -v 'daemon'
+        dscl . -list /Users | grep -v '_' | grep -v 'nobody' | grep -v 'root' | grep -v 'daemon' | grep -v '/'
 
     elif ((action==5)); then
         echo "Entrez le nom de l'utilisateur que vous voulez rechercher : \c"
@@ -83,3 +86,8 @@ while [ $action != "fin" ]; do
         echo "Fin du script."  
     fi 
 done
+
+
+
+# sudo createhomedir -u vincentmoreau -c 
+# fichier créé dans le /var/vincentmoreau. Après faire un sudo mv /var/vincentmoreau /Users

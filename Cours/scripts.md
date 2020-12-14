@@ -12,7 +12,7 @@ Le script contenu dans le fichier va donc s'exécuter. Les commandes inscrites d
 
 Pour illustrer la création d'un script, j'ai créé un script permettant d'ajouter les modifications effectuées sur mes fichiers directement sur mon GitHub, action qui demande 3 commandes.
 
-![git](./img/git.png)
+![git](../img/git.png)
 
 > 1. Création du fichier **git.sh**
 > 2. Édition du fichier avec les lignes de commandes utiles à l'exécution de l'action
