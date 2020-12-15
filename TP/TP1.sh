@@ -1,4 +1,4 @@
-menu="1. Créer un utilisateur\n2. Modifier un utilisateur\n3. Supprimer un utilisateur\n4. Voir tous les utilisateurs\n5.Faire une recherche\nEntrez le chiffre correspondant à l'action que vous souhaitez mener : \c"
+menu="1. Créer un utilisateur\n2. Modifier un utilisateur\n3. Supprimer un utilisateur\n4. Voir tous les utilisateurs\n5. Faire une recherche\nEntrez le chiffre correspondant à l'action que vous souhaitez mener : \c"
 choix="Vous avez choisi de "
 echo $menu
 read action
@@ -18,20 +18,11 @@ while [ $action != "fin" ]; do
         read password
 
         echo "Patientez..."
-        #sudo dscl . -create /Users/$username #créer l'utilisateur
-        #sudo dscl . -create /Users/$username UserShell /bin/zsh #ajouter dans fichier shell
-        #sudo dscl . -create /Users/$username RealName "$realname" #donner un nom complet
-        #sudo dscl . -create /Users/$username UniqueID $ID #donner un ID
-        #sudo dscl . -create /Users/$username PrimaryGroupID 20 #donner l'ID d'un groupe
-      
-        #sudo dscl . -passwd /Users/$username $password #définir le mdp
-        #Créer le répertoire dans Users
         sudo sysadminctl -addUser "$username" -fullName "$realname" -password "$password"
         sudo createhomedir -u $username -c
         sudo mv /var/$username /Users/$username
 
         echo "Votre utilisateur $username a bien été créé. "
-
 
     elif ((action==2)); then
         echo "$choix modifier un utilisateur. Quel utilisateur souhaitez-vous modifier ?"
@@ -59,8 +50,7 @@ while [ $action != "fin" ]; do
     elif ((action==3)); then
         echo "$choix supprimer un utilisateur. Quel utilisateur souhaitez-vous supprimer ?"
         read user
-        sudo dscl . -delete /Users/$user
-        sudo rm -dr /Users/$user
+        sudo sysadminctl -deleteUser $username
 
     elif ((action==4)); then
         echo "Voici tous les utilisateurs."
@@ -69,9 +59,10 @@ while [ $action != "fin" ]; do
     elif ((action==5)); then
         echo "Entrez le nom de l'utilisateur que vous voulez rechercher : \c"
         read search
-        echo "Nom d'utilisateur :" | dscl . -list /Users | grep $search
-        dscl . -list /Users UniqueID | grep $search 
+        dscl . -list /Users | grep $search
         dscl . -list /Users RealName | grep $search
+        dscl . -list /Users UserShell | grep $search 
+        dscl . -list /Users UniqueID | grep $search
         dscl . -list /Users PrimaryGroupID | grep $search
         dscl . -list /Users NFSHomeDirectory | grep $search
     fi
@@ -86,8 +77,3 @@ while [ $action != "fin" ]; do
         echo "Fin du script."  
     fi 
 done
-
-
-
-# sudo createhomedir -u vincentmoreau -c 
-# fichier créé dans le /var/vincentmoreau. Après faire un sudo mv /var/vincentmoreau /Users

@@ -30,17 +30,27 @@ FAIRE RECHERCHES SUR SYSADMINCTL
 7. sudo dscl . -passwd /Users/UTILISATEUR MOT_DE_PASSE
     * Permet d'initialiser le mot de passe de l'utilisateur
 
+**EVOLUTION DU SCRIPT**
+
+Après de nouvelles recherches pour créer le répertoire de l'utilisateur dans Users, j'ai trouvé une nouvelle commande qui me permet de créer un utilisateur plus facilement et sans avoir à traiter les ID car elle le fait automatiquement :
+    sudo sysadminctl -addUser "UTILISATEUR" -fullName "NOM_COMPLET_UTILISATEUR" -password "MOT_DE_PASSE"
+
+Cette commande permet de créer l'utilisateur, lui attribuer un nom complet et un mot de passe. J'ai préféré cette commande à l'utilisation de la commande dscl car celle-ci permet d'attribuer un ID directement et va vérifier si l'utilisateur que l'on créé n'existe pas déjà. Cela me fait donc gagner du temps sur la confection de mon script.
+
+J'ai aussi utilisé deux autres commandes pour créer mon répertoire utilisateurs dans Users : 
+    sudo createhomedir -u UTILISATEUR -c
+    sudo mv /var/$username /Users/UTILISATEUR
+> La première permet de créer un "home directory" soit un répertoire personnel. L'argument -u précise pour quel utilisateur on le créé, l'argument -c permet de créer un répertoire seulement pour les "chemins d'accès locaux" (voir man createhomedir). Cette commande va donc créer le fichier de l'utilisateur mais dans le répertoire /var de la machine.
+> La seconde commande consiste alors à déplacer ce dossier /var/UTILISATEUR dans le dossier Users !
+
 Voici les autres lignes de commandes de `dscl`utiles dans l'élaboration de mon script : 
 
-* sudo dscl . -append /Groups/admin GroupMembership UTILISATEUR
-    * permet de donner le rôle d'administrateur à l'utilisateur
-
 * dscl . -list /Users
-    * permet de lister les utilisateurs de la machine. J'utilise cette commande avec un grep pour isoler seulement els utilisateurs qui m'intéressent
+    * permet de lister les utilisateurs de la machine. J'utilise cette commande avec un grep pour isoler seulement les utilisateurs qui m'intéressent
 * sudo dscl . -delete /Users/UTILISATEUR
     * permet de supprimer un utilisateur
 
-## COnstruction de mon script
+## Construction de mon script
 
 Tout d'abord, j'ai voulu rendre mon script accessible et compréhensible par n'importe quel utilisateur en créant un menu qui regroupe les différentes actions possibles. La variable `menu`contient donc ce sommaire de choix avec un numéro attribué à chaque action possible. Une boucle *tant que* permet d'obliger l'utilisateur à saisir une donnée, mais aussi à choisir un chiffre inférieur ou égal à 5, sinon le menu réapparaîtra. À chaque fin d'action, j'ai intégré une boucle qui permet de savoir si l'utilisateur veut ou non revenir au menu. Si l'utilisateur veut revenir, le script lui renvoie le menu et redemande quelle action il veut exécuter. Sinon, l'action sera initialisée à la valeur "fin" et le script renverra "Fin du script" et se terminera. 
 
@@ -54,7 +64,29 @@ Pour créer un utilisateur, je demande d'abord à l'utilisateur le nom qu'il veu
 
 ### 2. Modifier un utilisateur
 
+### 3. Supprimer un utilisateur
 
+Pour supprimer un utilisateur, je demande d'abord quel utilisateur il faut supprimer. J'utilise ensuite la commande suivante
+    sysadminctl -deleteUser UTILISATEUR
+
+### 4. Voir tous les utilisateurs
+
+Pour voir tous les utilisateurs, j'utilise la commande suivante : 
+    dscl . -list /Users | grep -v '_' | grep -v 'nobody' | grep -v 'root' | grep -v 'daemon' | grep -v '/'
+
+Cette commande me permet d'afficher tous les utilisateurs. J'utilise un grep pour n'afficher que ceux qui sont créés par un administrateur et non ceux déjà implémentés dans la machine.
+
+### 5. Faire une recherche
+
+Pour faire une recherche, je prends d'abord le nom de l'utilisateur recherché. J'utilise ensuite les commandes suivantes : 
+    dscl . -list /Users | grep $search
+    dscl . -list /Users UniqueID | grep $search
+    dscl . -list /Users UserShell | grep $search 
+    dscl . -list /Users RealName | grep $search
+    dscl . -list /Users PrimaryGroupID | grep $search
+    dscl . -list /Users NFSHomeDirectory | grep $search
+
+Elles permettent, grâce à l'argument -list et au grep d'afficher les informations concernant l'utilisateur demandé. Les informations seront els suivantes : nom de l'utilisateur, son ID, le chemin d'accès vers le Shell, son nom complet, l'ID de son groupe, et le chemin d'accès vers son dossier utilisateur.
 
 https://smallbusiness.chron.com/add-user-terminal-mac-os-x-screen-sharing-31846.html
 https://qastack.fr/superuser/320649/groupadduseradd-not-found-on-mac-osx
