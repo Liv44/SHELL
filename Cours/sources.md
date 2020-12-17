@@ -32,6 +32,7 @@ Voici les liens des sites utilisés pour réaliser ce travai. Ce fichier est ré
 
 ### Les boucles
 * [Guide bash boucle for avec exemples | Hostinger tutoriels](https://www.hostinger.fr/tutoriels/guide-bash-boucle-for-avec-exemples/)
+* [Reprenez le contrôle à l'aide de Linux, les boucles | OpenClassRooms](https://openclassrooms.com/fr/courses/43538-reprenez-le-controle-a-laide-de-linux/43464-les-boucles)
 
 ### Les TP
 * [Lister les comptes d'utilisateurs sur Mac à partir de la ligne de commandes | APPLERSG](https://fre.applersg.com/list-user-accounts-mac-from-command-line)
