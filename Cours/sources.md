@@ -19,10 +19,11 @@ Voici les liens des sites utilisés pour réaliser ce travai. Ce fichier est ré
 
 ## 3. Scripts SHELL
     
-### les variables
+### Les variables
 * [Bash - La variable d'environnement PATH | Comment ça marche](https://www.commentcamarche.net/faq/3585-bash-la-variable-d-environnement-path)
 * [Les variables d'environnement | Wiki Ubuntu-fr](https://doc.ubuntu-fr.org/variables_d_environnement)
 * [Les variables d'environnement | Mon pense-bête (quennec)](https://www.quennec.fr/trucs-astuces/systèmes/gnulinux/programmation-shell-sous-gnulinux/paramétrer-son-environnement-de-travail/les-variables-denvironnement)
+* [Étude : environnement et variables | Linux France](http://www.linux-france.org/~nquiniou/module_ui/prog_shell/ch13s02.html#id2575202)
 
 ### Les conditions
 * [Maitriser les conditions en bash | Buzut](https://buzut.net/maitriser-les-conditions-en-bash/#Les-syntaxes-conditionnelles)
@@ -32,6 +33,9 @@ Voici les liens des sites utilisés pour réaliser ce travai. Ce fichier est ré
 ### Les boucles
 * [Guide bash boucle for avec exemples | Hostinger tutoriels](https://www.hostinger.fr/tutoriels/guide-bash-boucle-for-avec-exemples/)
 
-
-* http://www.linux-france.org/~nquiniou/module_ui/prog_shell/ch13s02.html#id2575202
+### Les TP
+* [Lister les comptes d'utilisateurs sur Mac à partir de la ligne de commandes | APPLERSG](https://fre.applersg.com/list-user-accounts-mac-from-command-line)
+* [useradd.sh create new user using command line in Mac OS X | Igor Voltaic](https://gist.github.com/igorvoltaic/ff3eed83aa0c37a85d1802b4fa40609a)
+* [Comment créer des comptes d'utilisateurs à partir du terminal dans Mac OS X 10.11 | Qastack](https://qastack.fr/apple/226073/how-do-i-create-user-accounts-from-the-terminal-in-mac-os-x-1011)
+* [TP : Programmation Shell | GRASSA. N & ISET Kairouan](http://n.grassa.free.fr/TP/TPVIIISCRIPT.pdf)
 

@@ -1,5 +1,4 @@
-sep="-----------------------"
-menu="1. Ajouter un contact\n2. Modifier un contact\n3. Voir tous les contacts\n4. Retrouver un contact\n5. Supprimer un contact\nQue voulez-vous faire ?\c"
+menu="1. Ajouter un contact\n2. Modifier un contact\n3. Voir tous les contacts\n4. Retrouver un contact\n5. Supprimer un contact\nQue voulez-vous faire ? \c"
 echo $menu
 read action
 
@@ -16,7 +15,6 @@ funcmenu() {
     fi 
 }
 
-
 while [ -z $action ] || ((action>6)); do
     echo "$menu\nTapez le chiffre correspondant à votre action : \c"
     read action
@@ -30,26 +28,35 @@ while [ $action != "fin" ]; do
     read telephone
     echo "Mail ? \c"
     read mail
-    echo "Nom : $nom - Téléphone : $telephone - Mail : $mail\n$sep" >> annuaire.txt
-   
-   
+    echo "Nom : $nom - Téléphone : $telephone - Mail : $mail" >> annuaire.txt
+
     elif ((action==3)); then
-    cat annuaire.txt
+    sort annuaire.txt
+   
+    elif ((action==2)); then
+    echo "Qui voulez-vous modifier ? \c"
+    read nom
+    echo "Nouveau numéro de téléphone \c"
+    read tel
+    echo "Nouvel E-mail \c"
+    read mail
+    grep -v "^Nom : $nom" annuaire.txt > buffer
+    echo "Nom : $nom - Téléphone : $tel - Mail : $mail" >> buffer
+    mv buffer annuaire.txt
 
 
     elif ((action==4)); then
-    echo "Qui voulez-vous chercher ? (nom/n°tel/mail)\c"
+    echo "Qui voulez-vous chercher ? (nom/n°tel/mail) \c"
     read info
     grep $info annuaire.txt
    
-   
     elif ((action==5)); then
-    echo "Quel contact voulez-vous supprimer ?\c"
+    sort annuaire.txt
+    echo "Quel contact voulez-vous supprimer ?"
     read nom
-    sed '/^$nom/d {N;N;d;}' in annuaire.txt
-    #grep -v $nom annuaire.txt
-    #grep -v "$nom" annuaire.txt > buffer
-    #mv buffer annuaire.txt
+    grep -v "$nom" annuaire.txt > buffer
+    mv buffer annuaire.txt
+    echo "$nom a bien été supprimé de l'annuaire."
     fi
 
     funcmenu

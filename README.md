@@ -29,4 +29,17 @@ Ce répertoire se décompose ainsi :
 
 ## Avis sur le projet
 
+Ce projet était très intéressant à faire mais le confinement a rendu la chose plus compliquée. Cette période m'a été défavorable dans le sens où j'ai perdu toute motivation pendant plusieurs semaines, et même si le travail à faire restait intéressant il m'a fallu attendre la dernière minute pour demander conseil. J'aurai pu me mettre moi-même des deadlines pour me motiver et finir le travail en totalité car j'en suis capable. Mais le confinement a eu pour moi un très a-mauavis impact et je m'en mords les doigts.
+
 Malgré une difficulté à me mettre au travail dû au confinement et au manque de motivation que cela a entraîné, j'ai trouvé ce projet intéressant à faire.
+
+Ce dont je suis fière : 
+* La structure de mon cours
+* Le contenu de mon cours
+* Le fait d'avoir aps mal bossé sur un script et d'avoir trouvé ça passionnant
+
+
+Ce que j'aurai voulu améliorer :
+* mieux gérer mon temps
+* travailler sur les autres TP car je suis capable de les faire
+* Trouver de la motivation plus rapidement
