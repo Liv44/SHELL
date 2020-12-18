@@ -77,11 +77,17 @@ Cette commande me permet d'afficher tous les utilisateurs. J'utilise un `grep -v
 ### 5. Faire une recherche
 
 Pour faire une recherche, je prends d'abord le nom de l'utilisateur recherché. J'utilise ensuite les commandes suivantes : 
+
     dscl . -list /Users | grep $search
+
     dscl . -list /Users UniqueID | grep $search
+
     dscl . -list /Users UserShell | grep $search 
+
     dscl . -list /Users RealName | grep $search
+
     dscl . -list /Users PrimaryGroupID | grep $search
+    
     dscl . -list /Users NFSHomeDirectory | grep $search
 
 Elles permettent, grâce à l'argument -list et au grep d'afficher les informations concernant l'utilisateur demandé. Les informations seront les suivantes : nom de l'utilisateur, son ID, le chemin d'accès vers le Shell, son nom complet, l'ID de son groupe, et le chemin d'accès vers son dossier utilisateur.
