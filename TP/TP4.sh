@@ -29,15 +29,14 @@ while [ $action != "fin" ]; do
     echo "Mail ? \c"
     read mail
     echo "Nom : $nom - Téléphone : $telephone - Mail : $mail" >> annuaire.txt
-
-    elif ((action==3)); then
-    sort annuaire.txt
    
     elif ((action==2)); then
     echo "Qui voulez-vous modifier ?"
     read nom
     sed -i '/^Nom : $nom/d' annuaire.txt
-   #sed -i -e 's#$nom#Renaud#g' annuaire.txt 
+
+    elif ((action==3)); then
+    sort annuaire.txt
 
     elif ((action==4)); then
     echo "Qui voulez-vous chercher ? (nom/n°tel/mail) \c"
@@ -48,8 +47,8 @@ while [ $action != "fin" ]; do
     sort annuaire.txt
     echo "Quel contact voulez-vous supprimer ?"
     read nom
-    grep -v "$nom" annuaire.txt > buffer
-    mv buffer annuaire.txt
+    grep -v "$nom" annuaire.txt > supp
+    mv supp annuaire.txt
     echo "$nom a bien été supprimé de l'annuaire."
     fi
 
