@@ -31,6 +31,6 @@ Ce répertoire se décompose ainsi :
 
 ## Avis sur le projet
 
-J'ai beaucoup aimé travailler sur ce projet. Même si le manque de motivation causée par le confinement a rendu la tâche plus difficile, je me suis surprise à aimer réaliser mon cours, et encore plus à travailler sur les TP. Les TP m'ont fait énormément progresser car j'ai dû rechercher par moi-même des solutions pour arriver à bout du problème et je suis fière de ce que j'ai pu réaliser même si cela n'a pas été abouti.
+J'ai beaucoup aimé travailler sur ce projet. Même si le manque de motivation causé par le confinement a rendu la tâche plus difficile, je me suis surprise à aimer réaliser mon cours, et encore plus à travailler sur les TP. Les TP m'ont fait énormément progresser car j'ai dû rechercher par moi-même des solutions pour arriver à bout du problème et je suis fière de ce que j'ai pu réaliser même si cela n'a pas été abouti.
 J'ai aussi beaucoup apprécié l'accessibilité de l'intervenant qui répondait aux questions assez rapidement durant les cours.
 
