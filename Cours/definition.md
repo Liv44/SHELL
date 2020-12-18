@@ -31,7 +31,7 @@ Le système d'exploitation est le **premier programme exécuté** par la machine
     * Permettent la gestion des périphériques
 
 
-![Schéma du système d'exploitation](./img/architecture.png)
+![Schéma du système d'exploitation](../img/architecture.png)
 
 
 > Pour résumer : Le **système d'exploitation** est un programme système qui fait le lien entre les composants de la machine, les applications et les demandes de l'utilisateur. Il est principalement composé d'un noyau appelé **Kernel** et d'une coquille appelée **Shell**.
@@ -49,7 +49,7 @@ On retrouve les commandes Shell dans le répertoire */bin* de notre machine.
 * D'explorer l'arborescence d'un système
 * De créee, d'éditer et de supprimer des fichiers
 
-Une des autres fonctionnalités importantes du Shell se trouve dans la **création de scripts Shell** qui permettent d'**automatiser** des actions que nous pourrions réaliser une à une à la main. (*Voir [Les Scripts Shell](./scripts.md)*)
+Une des autres fonctionnalités importantes du Shell se trouve dans la **création de scripts Shell** qui permettent d'**automatiser** des actions que nous pourrions réaliser une à une à la main. (*Voir [Les Scripts Shell](../scripts.md)*)
 
 
 *[Retour au sommaire](../README.md)* | 
