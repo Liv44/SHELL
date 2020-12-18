@@ -2,7 +2,7 @@
 
 Voici les liens des sites utilisés pour réaliser ce travai. Ce fichier est répertorié en fonction des pages qui composent ce cours.
 
-## 1. Définitions
+## Définitions
 * [L'OS expliqué en 3 minutes | Cookie connecté](https://www.youtube.com/watch?v=AcZ87MTiXr4)
 * [Qu'est-ce qu'un système d'exploitation | Astuces et aide informatique](https://www.astuces-aide-informatique.info/878/definition-systeme-exploitation)
 * [Système d'exploitation : Qu'est-ce que c'est ? | Futura Tech](https://www.futura-sciences.com/tech/definitions/informatique-systeme-exploitation-11820/)
@@ -16,7 +16,7 @@ Voici les liens des sites utilisés pour réaliser ce travai. Ce fichier est ré
 * [Linux Architecture | TacAdmin.net](https://tecadmin.net/tutorial/linux/linux-architecture/)
 
 
-## 3. Scripts SHELL
+## Scripts SHELL
     
 ### Les variables
 * [Bash - La variable d'environnement PATH | Comment ça marche](https://www.commentcamarche.net/faq/3585-bash-la-variable-d-environnement-path)
