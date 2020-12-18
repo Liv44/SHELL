@@ -23,23 +23,12 @@ Ce répertoire se décompose ainsi :
     * [Les boucles](./Cours/boucles.md)
 5. [Les TP](./TP)
     * [TP 1](./TP/TP1.md)
-    * [TP 2](./TP/TP2.md)
+    * [TP 4](./TP/TP4.md)
 
 ## [Sources](./Cours/sources.md)
 
 ## Avis sur le projet
 
-Ce projet était très intéressant à faire mais le confinement a rendu la chose plus compliquée. Cette période m'a été défavorable dans le sens où j'ai perdu toute motivation pendant plusieurs semaines, et même si le travail à faire restait intéressant il m'a fallu attendre la dernière minute pour demander conseil. J'aurai pu me mettre moi-même des deadlines pour me motiver et finir le travail en totalité car j'en suis capable. Mais le confinement a eu pour moi un très a-mauavis impact et je m'en mords les doigts.
+J'ai beaucoup aimé travailler sur ce projet. Même si le manque de motivation causée par le confinement a rendu la tâche plus difficile, je me suis surprise à aimer réaliser mon cours, et encore plus à travailler sur les TP. Les TP m'ont fait énormément progresser car j'ai dû rechercher par moi-même des solutions pour arriver à bout du problème et je suis fière de ce que j'ai pu réaliser même si cela n'a pas été abouti.
+J'ai aussi beaucoup apprécié l'accessibilité de l'intervenant qui répondait aux questions assez rapidement durant les cours.
 
-Malgré une difficulté à me mettre au travail dû au confinement et au manque de motivation que cela a entraîné, j'ai trouvé ce projet intéressant à faire.
-
-Ce dont je suis fière : 
-* La structure de mon cours
-* Le contenu de mon cours
-* Le fait d'avoir aps mal bossé sur un script et d'avoir trouvé ça passionnant
-
-
-Ce que j'aurai voulu améliorer :
-* mieux gérer mon temps
-* travailler sur les autres TP car je suis capable de les faire
-* Trouver de la motivation plus rapidement
