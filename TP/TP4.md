@@ -17,6 +17,7 @@ Pour la structure du script, j'ai réutilisé le menu que j'avais créé pour le
 ### 1. Ajouter un contact
 
 Pour ajouter un contact, j'ai utilisé les commandes echo et read avec les variables `nom`, `telephone` et `mail`, qui stockent le contact créé. J'ai ensuite fait la ligne de commande suivante : 
+    
     echo "Nom : $nom - Téléphone : $telephone - Mail : $mail" >> annuaire.txt
 
 > Cette commande permet d'afficher ce qui est entre guillemets dans le fichier suivi par `>>`. On affiche donc le nouveau contact dans le document annuaire.txt
@@ -38,9 +39,13 @@ Je n'ai pas eu le temps de chercher comment n'imprimer que le nom du contact.
 ### 5. Supprimer un contact
 
 Pour supprimer un contact, j'ai utilisé la commande `grep`avec l'argument `-v`qui permet de sélectionner le fichier **sans** la ligne contenant l'information que l'on cherche. 
+   
     grep -v "$nom" annuaire.txt
+
 > Cette commande va afficher le contenu de annuaire.txt sans la ligne qui contient le nom.
+
 Le contenu affiché va ensuite être stocké dans une variable et remise ensuite dans le fichier annuaire.txt
+    
     grep -v "$nom" annuaire.txt > supp
     
     mv supp annuaire.txt
