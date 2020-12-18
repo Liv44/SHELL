@@ -15,7 +15,6 @@ Voici les liens des sites utilisés pour réaliser ce travai. Ce fichier est ré
 
 * [Linux Architecture | TacAdmin.net](https://tecadmin.net/tutorial/linux/linux-architecture/)
 
-## 2. Les Types de Shell
 
 ## 3. Scripts SHELL
     
@@ -39,12 +38,3 @@ Voici les liens des sites utilisés pour réaliser ce travai. Ce fichier est ré
 * [useradd.sh create new user using command line in Mac OS X | Igor Voltaic](https://gist.github.com/igorvoltaic/ff3eed83aa0c37a85d1802b4fa40609a)
 * [Comment créer des comptes d'utilisateurs à partir du terminal dans Mac OS X 10.11 | Qastack](https://qastack.fr/apple/226073/how-do-i-create-user-accounts-from-the-terminal-in-mac-os-x-1011)
 * [TP : Programmation Shell | GRASSA. N & ISET Kairouan](http://n.grassa.free.fr/TP/TPVIIISCRIPT.pdf)
-
-
-https://smallbusiness.chron.com/add-user-terminal-mac-os-x-screen-sharing-31846.html
-https://qastack.fr/superuser/320649/groupadduseradd-not-found-on-mac-osx
-https://qastack.fr/superuser/202814/what-is-an-equivalent-of-the-adduser-command-on-mac-os-x
-http://perso.univ-lemans.fr/~emicoul/Documentations/Mac/Compte%20Mac%20terminal.html
-https://openclassrooms.com/forum/sujet/commande-quot-adduserquot-sur-mac-41168
-https://support.apple.com/fr-fr/HT203998
-https://lilotuto.fr/creer-un-compte-utilisateur-en-ligne-de-commande-en-single-mode/
