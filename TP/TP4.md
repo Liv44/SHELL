@@ -45,3 +45,5 @@ Le contenu affiché va ensuite être stocké dans une variable et remise ensuite
     
     mv supp annuaire.txt
 
+*[Retour au sommaire](../README.md)* | 
+*[Sources](../Cours/sources.md)*
