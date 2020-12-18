@@ -38,17 +38,14 @@ Après de nouvelles recherches pour créer le répertoire de l'utilisateur dans 
 Cette commande permet de créer l'utilisateur, lui attribuer un nom complet et un mot de passe. J'ai préféré cette commande à l'utilisation de la commande dscl car celle-ci permet d'attribuer un ID directement et va vérifier si l'utilisateur que l'on créé n'existe pas déjà. Cela me fait donc gagner du temps sur la confection de mon script.
 
 J'ai aussi utilisé deux autres commandes pour créer mon répertoire utilisateurs dans Users : 
+        
     sudo createhomedir -u UTILISATEUR -c
+    
     sudo mv /var/$username /Users/UTILISATEUR
 > La première permet de créer un "home directory" soit un répertoire personnel. L'argument -u précise pour quel utilisateur on le créé, l'argument -c permet de créer un répertoire seulement pour les "chemins d'accès locaux" (voir man createhomedir). Cette commande va donc créer le fichier de l'utilisateur mais dans le répertoire /var de la machine.
+
 > La seconde commande consiste alors à déplacer ce dossier /var/UTILISATEUR dans le dossier Users !
 
-Voici les autres lignes de commandes de `dscl`utiles dans l'élaboration de mon script : 
-
-* dscl . -list /Users
-    * permet de lister les utilisateurs de la machine. J'utilise cette commande avec un grep pour isoler seulement les utilisateurs qui m'intéressent
-* sudo dscl . -delete /Users/UTILISATEUR
-    * permet de supprimer un utilisateur
 
 ## Construction de mon script
 
@@ -92,12 +89,6 @@ Pour faire une recherche, je prends d'abord le nom de l'utilisateur recherché. 
 
 Elles permettent, grâce à l'argument -list et au grep d'afficher les informations concernant l'utilisateur demandé. Les informations seront els suivantes : nom de l'utilisateur, son ID, le chemin d'accès vers le Shell, son nom complet, l'ID de son groupe, et le chemin d'accès vers son dossier utilisateur.
 
-https://smallbusiness.chron.com/add-user-terminal-mac-os-x-screen-sharing-31846.html
-https://qastack.fr/superuser/320649/groupadduseradd-not-found-on-mac-osx
-https://qastack.fr/superuser/202814/what-is-an-equivalent-of-the-adduser-command-on-mac-os-x
-http://perso.univ-lemans.fr/~emicoul/Documentations/Mac/Compte%20Mac%20terminal.html
-https://openclassrooms.com/forum/sujet/commande-quot-adduserquot-sur-mac-41168
-https://support.apple.com/fr-fr/HT203998
-https://lilotuto.fr/creer-un-compte-utilisateur-en-ligne-de-commande-en-single-mode/
+
 
 
