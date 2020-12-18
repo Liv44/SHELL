@@ -1,7 +1,6 @@
 # LE SHELL 
 # Olivia MOREAU | B1 Informatique
 
-
 ## Introduction
 
 
