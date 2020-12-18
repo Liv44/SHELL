@@ -49,7 +49,7 @@ On retrouve les commandes Shell dans le répertoire */bin* de notre machine.
 * D'explorer l'arborescence d'un système
 * De créee, d'éditer et de supprimer des fichiers
 
-Une des autres fonctionnalités importantes du Shell se trouve dans la **création de scripts Shell** qui permettent d'**automatiser** des actions que nous pourrions réaliser une à une à la main. (*Voir [Les Scripts Shell](../scripts.md)*)
+Une des autres fonctionnalités importantes du Shell se trouve dans la **création de scripts Shell** qui permettent d'**automatiser** des actions que nous pourrions réaliser une à une à la main. (*Voir [Les Scripts Shell](./scripts.md)*)
 
 
 *[Retour au sommaire](../README.md)* | 
