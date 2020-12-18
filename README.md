@@ -1,6 +1,9 @@
-# LE SHELL
+# LE SHELL 
+# Olivia MOREAU | B1 Informatique
+
 
 ## Introduction
+
 
 J'ai décidé de travailler sur le Shell car je travaille avec un MacBook Air. Mac ayant un noyau Unix (une version de Linux), il comprends déjà le langage Shell, contrairement à Windows qui doit installer un PowerShell. Nous verrons donc ce qu'est le Shell, les différents types de shell et les commandes importantes puis nous développerons la notion de Script Shell qui permettra d'automatiser des actions. Enfin, nous travaillerons sur des TP pour créer des scripts Shell plus complexes.
 
@@ -11,7 +14,7 @@ Ce répertoire se décompose ainsi :
 * un dossier **Cours** avec les fichiers .md comprennant les différents chapitres
 * un dossier **img** comprennant les images utilisées pour illustrer le cours
 * un dossier **scripts** où l'on trouve les scripts servant d'exemples pour le cours
-* un dossier **TP** avec les différents TP que j'ai pu travailler.
+* un dossier **TP** avec les différents scripts shell que j'ai pu travailler et leur explication en MarkDown
 
 ## Sommaire
 1. [Les définitions](./Cours/definition.md)
