@@ -50,7 +50,7 @@ while [ $action != "fin" ]; do
     elif ((action==3)); then
         echo "$choix supprimer un utilisateur. Quel utilisateur souhaitez-vous supprimer ?"
         read user
-        sudo sysadminctl -deleteUser $username
+        sudo sysadminctl -deleteUser $user
 
     elif ((action==4)); then
         echo "Voici tous les utilisateurs."

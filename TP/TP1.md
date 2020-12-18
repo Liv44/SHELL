@@ -64,10 +64,14 @@ Pour créer un utilisateur, je demande d'abord à l'utilisateur le nom qu'il veu
 
 ### 2. Modifier un utilisateur
 
+Je n'ai pas eu le temps de me pencher sur cette partie.
+
 ### 3. Supprimer un utilisateur
 
 Pour supprimer un utilisateur, je demande d'abord quel utilisateur il faut supprimer. J'utilise ensuite la commande suivante
     sysadminctl -deleteUser UTILISATEUR
+
+Cette commande va supprimer l'utilisateur et son répertoire dans Users.
 
 ### 4. Voir tous les utilisateurs
 
@@ -97,18 +101,3 @@ https://support.apple.com/fr-fr/HT203998
 https://lilotuto.fr/creer-un-compte-utilisateur-en-ligne-de-commande-en-single-mode/
 
 
-name: oliviamoreau
-password: ********
-uid: 501
-gid: 20
-dir: /Users/oliviamoreau
-shell: /bin/zsh
-gecos: Olivia Moreau
-
-name: nathaliechastre
-password: ********
-uid: 503
-gid: 1000
-dir: /Users/nathaliechastre
-shell: /bin/bash
-gecos: Nathalie Chastre

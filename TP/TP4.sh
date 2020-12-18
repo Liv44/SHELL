@@ -34,16 +34,10 @@ while [ $action != "fin" ]; do
     sort annuaire.txt
    
     elif ((action==2)); then
-    echo "Qui voulez-vous modifier ? \c"
+    echo "Qui voulez-vous modifier ?"
     read nom
-    echo "Nouveau numéro de téléphone \c"
-    read tel
-    echo "Nouvel E-mail \c"
-    read mail
-    grep -v "^Nom : $nom" annuaire.txt > buffer
-    echo "Nom : $nom - Téléphone : $tel - Mail : $mail" >> buffer
-    mv buffer annuaire.txt
-
+    sed -i '/^Nom : $nom/d' annuaire.txt
+   #sed -i -e 's#$nom#Renaud#g' annuaire.txt 
 
     elif ((action==4)); then
     echo "Qui voulez-vous chercher ? (nom/n°tel/mail) \c"
